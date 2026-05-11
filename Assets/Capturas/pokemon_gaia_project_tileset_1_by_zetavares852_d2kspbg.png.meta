@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: ed5728fa70b45e548bb8569ca544bbe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7201442504427566857
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_0
+  - first:
+      213: 8371252096142826337
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_1
+  - first:
+      213: -5328163917396921808
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_2
+  - first:
+      213: 900120171441157903
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_3
+  - first:
+      213: -4372243434895192088
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_4
+  - first:
+      213: -8584037804097657707
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_5
+  - first:
+      213: -6512456272158267898
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6
+  - first:
+      213: 7036688211495785612
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_7
+  - first:
+      213: -6242592710693371362
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_8
+  - first:
+      213: -4201316266554172304
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_9
+  - first:
+      213: -8095392114969626134
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_10
+  - first:
+      213: 6443562523094103507
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_11
+  - first:
+      213: 3861711923691470050
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_12
+  - first:
+      213: -653517328575896718
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_13
+  - first:
+      213: -2288800540321317968
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_14
+  - first:
+      213: 647416954843043892
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_15
+  - first:
+      213: -279186267258907158
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_16
+  - first:
+      213: 200519898680612724
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_17
+  - first:
+      213: 5907254309749708094
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_18
+  - first:
+      213: 7246809064142813657
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_19
+  - first:
+      213: 4324580992794204572
+    second: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 463
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8023572365f0c90800000000000000
+      internalID: -7201442504427566857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 463
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b56dbbd69ac2470800000000000000
+      internalID: 8371252096142826337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 463
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032b08e952f8e06b0800000000000000
+      internalID: -5328163917396921808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 463
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07f9e1e68edd7c00800000000000000
+      internalID: 900120171441157903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 463
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efc987d2cba253c0800000000000000
+      internalID: -4372243434895192088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 463
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5942c3ce81f5fd880800000000000000
+      internalID: -8584037804097657707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 463
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606edb2668b1f95a0800000000000000
+      internalID: -6512456272158267898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 463
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84926975a657a160800000000000000
+      internalID: 7036688211495785612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 463
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12cda9110bdd59a0800000000000000
+      internalID: -6242592710693371362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 463
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd7f67d1de1b5c0800000000000000
+      internalID: -4201316266554172304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 463
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9bcbd33c367af80800000000000000
+      internalID: -8095392114969626134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d53b0da9f12c6950800000000000000
+      internalID: 6443562523094103507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 399
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec358cc88e879530800000000000000
+      internalID: 3861711923691470050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 399
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273ebafb37d3ee6f0800000000000000
+      internalID: -653517328575896718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 399
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbfc60090c8c30e0800000000000000
+      internalID: -2288800540321317968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 399
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4381cfe4a461cf800800000000000000
+      internalID: 647416954843043892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 399
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae59dd1b191202cf0800000000000000
+      internalID: -279186267258907158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 399
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477514319c368c200800000000000000
+      internalID: 200519898680612724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 399
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35d68a2f78caf150800000000000000
+      internalID: 5907254309749708094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 193
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d93057d276d19460800000000000000
+      internalID: 7246809064142813657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 17
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9997e5108ff30c30800000000000000
+      internalID: 4324580992794204572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_0: -7201442504427566857
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_1: 8371252096142826337
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_10: -8095392114969626134
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_11: 6443562523094103507
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_12: 3861711923691470050
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_13: -653517328575896718
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_14: -2288800540321317968
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_15: 647416954843043892
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_16: -279186267258907158
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_17: 200519898680612724
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_18: 5907254309749708094
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_19: 7246809064142813657
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_2: -5328163917396921808
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_20: 4324580992794204572
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_3: 900120171441157903
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_4: -4372243434895192088
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_5: -8584037804097657707
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6: -6512456272158267898
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_7: 7036688211495785612
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_8: -6242592710693371362
+      pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_9: -4201316266554172304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
