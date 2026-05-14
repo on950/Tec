@@ -367,9 +367,7 @@ Transform:
   - {fileID: 23977744}
   - {fileID: 663591331}
   - {fileID: 728209337}
-  - {fileID: 1265962100}
   - {fileID: 82072649}
-  - {fileID: 2043589916}
   - {fileID: 1714473030}
   - {fileID: 330014386}
   - {fileID: 819573188}
@@ -739,11 +737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0145526
+      value: 0.48807085
       objectReference: {fileID: 0}
     - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.4737625
+      value: -13.5685
       objectReference: {fileID: 0}
     - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4457,8 +4455,8 @@ Transform:
   m_GameObject: {fileID: 232661184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.19, y: -0.492, z: 0}
-  m_LocalScale: {x: 2.068319, y: 2.217343, z: 1}
+  m_LocalPosition: {x: -5.54, y: -0.492, z: 0}
+  m_LocalScale: {x: 2.3210678, y: 2.217343, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -20495,76 +20493,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2962208633963118027, guid: 8d699477abab54c4b9a36d871bcc52de, type: 3}
   m_PrefabInstance: {fileID: 1243795791}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1265962099
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 12910182}
-    m_Modifications:
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.20897
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0145526
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.173761
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.4744089
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5128011353548018353, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_Name
-      value: pokemon_gaia_project_tileset_8_by_zetavares852_d2kwn5g_417 (239)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
---- !u!4 &1265962100 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-  m_PrefabInstance: {fileID: 1265962099}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1268457934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33548,76 +33476,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6979824387809790822, guid: ce859aa7b280db9498ce817f45c41734, type: 3}
   m_PrefabInstance: {fileID: 2036504786}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2043589915
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 12910182}
-    m_Modifications:
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.20897
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.76659596
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12.91836
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.474409
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5128011353548018353, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-      propertyPath: m_Name
-      value: pokemon_gaia_project_tileset_8_by_zetavares852_d2kwn5g_417 (241)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
---- !u!4 &2043589916 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2702414570203666566, guid: 169360a57240f9444916d1d43d6dcf68, type: 3}
-  m_PrefabInstance: {fileID: 2043589915}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2047627615
 PrefabInstance:

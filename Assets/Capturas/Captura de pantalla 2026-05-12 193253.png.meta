@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8090382f942f119408acac4faab9b26e
+guid: adeb03f131063b0439fb0b845d9da1e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3748309987551506711
-    second: plano.jpg_0
+      213: 3497771265430108792
+    second: Captura de pantalla 2026-05-12 193253_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plano.jpg_0
+      name: Captura de pantalla 2026-05-12 193253_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2501
-        height: 738
+        x: 5
+        y: 3
+        width: 895
+        height: 528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7117e04031ca40430800000000000000
-      internalID: 3748309987551506711
+      spriteID: 87ab7851f649a8030800000000000000
+      internalID: 3497771265430108792
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ad3058daa6419764699f456948217892
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plano.jpg_0: 3748309987551506711
+      Captura de pantalla 2026-05-12 193253_0: 3497771265430108792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
