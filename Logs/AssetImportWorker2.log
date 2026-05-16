@@ -1,0 +1,805 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 15636 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-emili" at "2026-05-15T22:24:23.4863883Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-15T22:24:23Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51720
+-licensingIpc
+LicenseClient-emili
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
+C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [28812]  Target information:
+
+Player connection [28812]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3331724175 [EditorId] 3331724175 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28812]  * "[IP] 169.254.54.251 [Port] 0 [Flags] 2 [Guid] 3331724175 [EditorId] 3331724175 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28812]  * "[IP] 192.168.126.1 [Port] 0 [Flags] 2 [Guid] 3331724175 [EditorId] 3331724175 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28812]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 3331724175 [EditorId] 3331724175 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28812]  * "[IP] 25.20.186.213 [Port] 0 [Flags] 2 [Guid] 3331724175 [EditorId] 3331724175 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28812] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5920 MB
+    Driver:   32.0.15.9597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001274 seconds.
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              4db958efcc9c40ad8a51698058b1d5dc
+  Correlation Id:          c8aae7511a55fc255b7a5a3736e62289
+  External correlation Id: 8888635539139538312
+  Machine Id:              ytvbdoWWXNMuerO/9VD1UsN8/2c=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-emili" (connect: 0.00s, validation: 0.00s, handshake: 1.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-emili-notifications" at "2026-05-15T22:24:24.5461826Z"
+[Licensing::Module] Licensing Background thread has ended after 1.06s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.448 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674159481341-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1169ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5013 unused Assets / (0.9 MB). Loaded Objects now: 5599.
+Memory consumption went from 100.6 MB to 99.7 MB.
+Total: 5.906500 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.169400 ms MarkObjects: 4.423300 ms  DeleteObjects: 0.813800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23967.968251 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21c7c52e31a50ee29af51abac8d6177a') in 0.0633987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.779379 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a072d09064bae872399feff86bfbc0d') in 0.0161997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 773.598140 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcdd5079873b7b4ce538fff8890d2ab8') in 0.0177053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.868887 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ecb23c0a72f699dc417310fa7fb0948') in 0.0180452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.652684 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c2b1ae29b8e9542d96333a3939c9f2f') in 0.0183998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.477328 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1d7e6d52aebf8ccde85d2a82b17ebe0') in 0.0221323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.091414 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a98373123b4a3f65fbbdebec822749ba') in 0.0174303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.952209 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50532f65140e0798a2d316aa2bfda6c2') in 0.0180759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.163124 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ecf4458058347284cdfb11629b8bf4c') in 0.0013973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.471901 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c99dc5ebacd76503bd942ff1d001d0dc') in 0.0173529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.914480 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '359af180d49820dd97cde6c6f51a2b02') in 0.0176649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.165265 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c301c203e61b510972d6bc206a7fecc8') in 0.0189384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.171658 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91e213897812b7fa490e6d18b8e1800d') in 0.0008221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.568486 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5c149e55bae97acc1cfbe3eb46902f0') in 0.0008954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.120970 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5944b4271bf019de4e98517abbef389') in 0.0182733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.243634 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9964e754280b098ba4c5f51de137423') in 0.0189837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.558944 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6 (25).prefab
+  artifactKey: Guid(f93ccedb721a3b24d88f39c5d8350b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6 (25).prefab using Guid(f93ccedb721a3b24d88f39c5d8350b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0446f7fc2af5076fae6d908ce199c558') in 0.0870341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892436 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6 (25).prefab
+  artifactKey: Guid(f93ccedb721a3b24d88f39c5d8350b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg_6 (25).prefab using Guid(f93ccedb721a3b24d88f39c5d8350b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95dacd70256488344f53401864f9cced') in 0.0601224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.545679 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77705d29f71838e3d4472b57b279bc14') in 0.0175543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.088793 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0a8b2adb73a2129f391128ecac70acd') in 0.0172487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.994146 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_100.prefab
+  artifactKey: Guid(37a66bc8493712041b9c2df53c4e7e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_100.prefab using Guid(37a66bc8493712041b9c2df53c4e7e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2970ba2a703d1cca65303b32584d989') in 0.0153179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_82 (1).prefab
+  artifactKey: Guid(87b6128c6dedd7f488d88d2e8b4b3d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_82 (1).prefab using Guid(87b6128c6dedd7f488d88d2e8b4b3d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb39001da41a1791a568f06248f14c9e') in 0.0148888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.952296 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_56.prefab
+  artifactKey: Guid(939f32b06e1f8c6419a349cddb5537e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_56.prefab using Guid(939f32b06e1f8c6419a349cddb5537e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb280b3ff3042258958d62ab92d0eab2') in 0.0204799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_82 (1).prefab
+  artifactKey: Guid(87b6128c6dedd7f488d88d2e8b4b3d36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_82 (1).prefab using Guid(87b6128c6dedd7f488d88d2e8b4b3d36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '727f988938ab52b71ef931a7917cae07') in 0.0172798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.870441 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '142661160a4da032d7922964f88050ac') in 0.0190125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.767953 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4176248291b844e373c9d01d04504be') in 0.0195281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.256200 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f0880a62ae54c01aee285eac6e0f6a') in 0.0009107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.434590 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_102.prefab
+  artifactKey: Guid(b0abf7172090302498e4eed8f95e9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_102.prefab using Guid(b0abf7172090302498e4eed8f95e9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9fdac8d8d50a0a6121b9865ce2b5ca') in 0.0143204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970648 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_102.prefab
+  artifactKey: Guid(b0abf7172090302498e4eed8f95e9dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_102.prefab using Guid(b0abf7172090302498e4eed8f95e9dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52306f66610d0432c3cd7f7db609cb2e') in 0.0173453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.400232 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59fa45de0344320556601ac94982c7df') in 0.0166569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1370.780223 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '183ba715eb7083e1f0a8f97f58b25b93') in 0.019183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.406850 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd62813a69c0b9609dfa7294da95a71f') in 0.0183986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.988886 seconds.
+  path: Assets/2DPixelFantasyTilemapFree/Scenes
+  artifactKey: Guid(3e201c9c0bb10474c90669d4afbb3895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DPixelFantasyTilemapFree/Scenes using Guid(3e201c9c0bb10474c90669d4afbb3895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a68a4a3055f426dd276b337dfbc0475') in 0.0011815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.940124 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d8b1fe19dcc931372e31164792ecb34') in 0.0193594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.040268 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db3b2f43d0deaf52b5115953bb096ae9') in 0.018294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.168538 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d5ebeebcda1e40bdae2dc1c7e2bf5dd') in 0.0182536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.225637 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bcc91c4385bd3a9029ea8111aa6a012') in 0.0196812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.828422 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0228afa6033e6fa0bf7aa65d756ce11') in 0.0008893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.386035 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c27443ac82cb6a10dde03ffb1aa93c7f') in 0.0165752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.648871 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bf5967173bf32ceef516757eaa7bc68') in 0.0197973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.368449 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edbc639764263901e690c23fbedf513f') in 0.016861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.856846 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8128839780c5159136cfbc931fabbd9') in 0.0190324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.453975 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cb44f1de7081209a31bc53dff83eb94') in 0.0173387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.361465 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b1bca3c4cb4aa1bd9d92d599453ba19') in 0.017905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.654600 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_30.prefab
+  artifactKey: Guid(52bae3a3379475d43ac707f207282725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_30.prefab using Guid(52bae3a3379475d43ac707f207282725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6272a066e39837a43f8f2a2f5e9e4a62') in 0.0279444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.955798 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_30.prefab
+  artifactKey: Guid(52bae3a3379475d43ac707f207282725) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_30.prefab using Guid(52bae3a3379475d43ac707f207282725) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac8dac1742f43f322483c954bc6a1e8a') in 0.0149295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.973750 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '570e88919f022f582b011372c6fc15ea') in 0.0208312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.152633 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58fe0145ee23a4049099f8e1621363e1') in 0.0208081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.982400 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5462b3eea08419cad53c44c114715fc7') in 0.0190704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.435803 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bd8582a95175a208b76d5b07833a533') in 0.0169202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.882894 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04e9ee941b4978ec6e6386ab71f02c83') in 0.0350279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.446690 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b927c0c4f80827b64a4acc20c2d5dfad') in 0.0167387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.561179 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df6734e2ee03395c1cfd8e5ab96e302e') in 0.0200106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.842953 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cc703052bf3c6d0d773907a844a20e7') in 0.0210236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.006217 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab
+  artifactKey: Guid(dc26afebb24e7854ebc55390dd53835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab using Guid(dc26afebb24e7854ebc55390dd53835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd099f32d8ee890fab30d8b70ff330c93') in 0.0158526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968736 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab
+  artifactKey: Guid(dc26afebb24e7854ebc55390dd53835c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab using Guid(dc26afebb24e7854ebc55390dd53835c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1f65f638c684a5b645c167f0e26d437') in 0.0165457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.794158 seconds.
+  path: Assets/Scenes/OPQ.unity
+  artifactKey: Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/OPQ.unity using Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54852512f08d2b2d332ff60a23a9c4a1') in 0.0146974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.063000 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab
+  artifactKey: Guid(dc26afebb24e7854ebc55390dd53835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab using Guid(dc26afebb24e7854ebc55390dd53835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b8ec9144a35176068f3a2e0e45085f1') in 0.0149498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961466 seconds.
+  path: Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab
+  artifactKey: Guid(dc26afebb24e7854ebc55390dd53835c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/pokemon_gaia_project_tileset_3_by_zetavares852_d2kwmtd_98.prefab using Guid(dc26afebb24e7854ebc55390dd53835c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '834e2de3636e866eb0f59956503049bc') in 0.0150851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.780638 seconds.
+  path: Assets/Scenes/OPQ.unity
+  artifactKey: Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/OPQ.unity using Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59ad5b205c92939c5ed8860c0dd404db') in 0.017234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.932309 seconds.
+  path: Assets/Scenes/OPQ.unity
+  artifactKey: Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/OPQ.unity using Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0150c67143d3e68a551385ffd4c7017e') in 0.0166186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.688208 seconds.
+  path: Assets/Scenes/XW.unity
+  artifactKey: Guid(4660bb9ad174c6549aed5bb879700b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/XW.unity using Guid(4660bb9ad174c6549aed5bb879700b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e158b5d9d1bce969f0a3be45d557ecf9') in 0.0182007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.527131 seconds.
+  path: Assets/Scenes/XW.unity
+  artifactKey: Guid(4660bb9ad174c6549aed5bb879700b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/XW.unity using Guid(4660bb9ad174c6549aed5bb879700b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d731f35d01cc7b06ff5c5b88965408e') in 0.0166175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.055602 seconds.
+  path: Assets/Scenes/Y.unity
+  artifactKey: Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Y.unity using Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c52ad094dedc4bbc05cd0d9de870e8d8') in 0.0007644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.283803 seconds.
+  path: Assets/Scenes/Y.unity
+  artifactKey: Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Y.unity using Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a31f7cd8c93185dcc7e1fb961d9b31d') in 0.0159556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.068140 seconds.
+  path: Assets/Scenes/ACR.unity
+  artifactKey: Guid(6b9eee6135712e044a972a607f011a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ACR.unity using Guid(6b9eee6135712e044a972a607f011a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a613a48f6e5c104885014cfdb69b5c37') in 0.0007961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877836 seconds.
+  path: Assets/Scenes/B.unity
+  artifactKey: Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/B.unity using Guid(cabb8a575624a174e98ed48212dcb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7a99d173ff62e446fece9bdcaab035b') in 0.0007935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.683112 seconds.
+  path: Assets/Scenes/FKGVH.unity
+  artifactKey: Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FKGVH.unity using Guid(e7b8a2c7c2a90d64998f70eb7fe2dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ca7962abd216f80da977926a2c4f430') in 0.0005366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745312 seconds.
+  path: Assets/Scenes/MNS.unity
+  artifactKey: Guid(c74c5d8189997aa47987111415d8578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MNS.unity using Guid(c74c5d8189997aa47987111415d8578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ed4df0a2254bb7a04204d32574f49b7') in 0.0005484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.835007 seconds.
+  path: Assets/Scenes/OPQ.unity
+  artifactKey: Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OPQ.unity using Guid(b7bce46a6f1614c4f8dce7756f55bd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75211862c83f2c0c273b8eb3fe5b48d5') in 0.0005961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557161 seconds.
+  path: Assets/Scenes/XW.unity
+  artifactKey: Guid(4660bb9ad174c6549aed5bb879700b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/XW.unity using Guid(4660bb9ad174c6549aed5bb879700b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd20d3bda826c0275212b5bd06fcdcfcf') in 0.0005717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.564029 seconds.
+  path: Assets/Scenes/Y.unity
+  artifactKey: Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Y.unity using Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa80f32a520242ce9661e66607a2ae03') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.050405 seconds.
+  path: Assets/Scenes/Y.unity
+  artifactKey: Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Y.unity using Guid(014e3f93e17111f4f834e9b34d7c53bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c85c92d9aac5d410a819a828931eccb') in 0.0153143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
