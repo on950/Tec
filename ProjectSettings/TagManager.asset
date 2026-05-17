@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-<<<<<<< HEAD
-  - Enemy
-  - Ground
-=======
-  - Biblioteca
-  - Cooperativa
-  - K
-  - Oxxito
->>>>>>> isidro
+  tags: []
   layers:
   - Default
   - TransparentFX
