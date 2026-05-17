@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b4499cf2065d44db3d30fa6d15fadb, type: 3}
+  m_Name: Redes
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Redes
+  introText: "Conectando Se\xF1al"
+  enemySprite: {fileID: 0}
+  maxHealth: 20
+  usesBlueSoul: 1
+  primaryColor: {r: 0, g: 1, b: 1, a: 1}
+  secondaryColor: {r: 0, g: 0, b: 1, a: 1}
+  attackSpawnerPrefab: {fileID: 2076794526633750473, guid: c3d7ca8ffa154f848870fb8f147c983d, type: 3}
+  actDialogues: []
+  enemyTurnDialogues: []
