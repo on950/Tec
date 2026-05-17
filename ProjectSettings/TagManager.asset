@@ -3,7 +3,59 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Biblioteca
+  - Cooperativa
+  - K
+  - Oxxito
+  - E
+  - E2
+  - J
+  - Audio
+  - D
+  - SalidaK
+  - H
+  - G
+  - F
+  - V
+  - Servicios
+  - SalidaP
+  - SalidaO
+  - SalidaE
+  - SalidaC
+  - Inicio
+  - InicioACR
+  - BibliotecaACR
+  - SalidaCope
+  - A
+  - R
+  - C
+  - BibliotecaInicio
+  - AcrBiblioteca
+  - SalidaJMNS
+  - SalidaOMNS
+  - SalidaQ1MNS
+  - SalidaQ2MNS
+  - SalidaXMNS
+  - N
+  - OxxitoOPQ
+  - SalidaKOPQ
+  - SalidaVOPQ
+  - SalidaQ1OPQ
+  - SalidaQ2OPQ
+  - Q
+  - O
+  - P
+  - Audi
+  - SalidaY
+  - X
+  - SalidaQXW
+  - SalidaXY
+  - Y
+>>>>>>> isidro
   layers:
   - Default
   - TransparentFX
