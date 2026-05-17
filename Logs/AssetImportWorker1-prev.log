@@ -1,4 +1,5 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+<<<<<<< HEAD
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 15636 MB
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-emili" at "2026-05-16T01:01:20.1969193Z"
@@ -6,22 +7,35 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
 Date: 2026-05-16T01:01:20Z
+=======
+Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'es' Physical Memory: 40663 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-isiar" at "2026-05-17T13:53:32.4157085Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-17T13:53:32Z
+>>>>>>> isidro
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
+D:/Unity/Tec
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 64227
+=======
+65192
+>>>>>>> isidro
 -licensingIpc
-LicenseClient-emili
+LicenseClient-isiar
 -job-worker-count
 5
 -background-job-worker-count
@@ -30,8 +44,8 @@ LicenseClient-emili
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
-C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
+Successfully changed project path to: D:/Unity/Tec
+D:/Unity/Tec
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,6 +81,7 @@ C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [1332]  Target information:
 
 Player connection [1332]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1740618746 [EditorId] 1740618746 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -81,6 +96,16 @@ Player connection [1332]  * "[IP] 25.20.186.213 [Port] 0 [Flags] 2 [Guid] 174061
 
 Player connection [1332] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [1332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [23008]  Target information:
+
+Player connection [23008]  * "[IP] 169.254.51.32 [Port] 0 [Flags] 2 [Guid] 3612253064 [EditorId] 3612253064 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23008]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 3612253064 [EditorId] 3612253064 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> isidro
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -92,19 +117,24 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
+>>>>>>> isidro
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.8f1 (1c7db571dde0)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec/Assets
+Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Tec/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
     Vendor:   NVIDIA
-    VRAM:     5920 MB
-    Driver:   32.0.15.9597
+    VRAM:     7956 MB
+    Driver:   32.0.15.9649
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
@@ -129,12 +159,30 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.528 seconds
 Domain Reload Profiling: 1046ms
 	BeginReloadAssembly (158ms)
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004724 seconds.
+- Loaded All Assemblies, in  0.592 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1238ms
+	BeginReloadAssembly (198ms)
+>>>>>>> isidro
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (47ms)
+<<<<<<< HEAD
 	RebuildNativeTypeToScriptingClass (18ms)
 	initialDomainReloadingComplete (59ms)
 	LoadAllAssembliesAndSetupDomain (235ms)
@@ -155,6 +203,28 @@ Domain Reload Profiling: 1046ms
 			BeforeProcessingInitializeOnLoad (132ms)
 			ProcessInitializeOnLoadAttributes (208ms)
 			ProcessInitializeOnLoadMethodAttributes (73ms)
+=======
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (227ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+>>>>>>> isidro
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,14 +233,30 @@ Domain Reload Profiling: 1046ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              373c3e01143d46ff80ebdba138dab795
+  Correlation Id:          62bd9e6e98b5516cdd1607cd1ae36802
+  External correlation Id: 3852902340437572878
+  Machine Id:              sZv3vK/XFhM9nFTPxPf8/zDPC8M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-isiar" (connect: 0.00s, validation: 0.00s, handshake: 3.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-isiar-notifications" at "2026-05-17T13:53:35.4352123Z"
+[Licensing::Module] Licensing Background thread has ended after 3.02s
+[Licensing::Module] Licensing is initialized (took 0.39s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 4674159481341-UnityPersXXXX
+  Id: 4674155126037-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.744 seconds
 Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  1.238 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+>>>>>>> isidro
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -178,6 +264,7 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.733 seconds
 Domain Reload Profiling: 1473ms
 	BeginReloadAssembly (188ms)
@@ -249,10 +336,60 @@ Received Import Request.
   path: Assets/Sprites/DefalutNormal.png
   artifactKey: Guid(784bc5e2be7b6ec4ab82eb10f6084962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/DefalutNormal.png using Guid(784bc5e2be7b6ec4ab82eb10f6084962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f7b9fb04c2b5b3c366bdfd0fd58d8c8') in 0.0270826 seconds
+=======
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 2089ms
+	BeginReloadAssembly (589ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5014 unused Assets / (1.3 MB). Loaded Objects now: 5597.
+Memory consumption went from 100.6 MB to 99.2 MB.
+Total: 6.771800 ms (FindLiveObjects: 0.402200 ms CreateObjectMapping: 0.274000 ms MarkObjects: 5.013900 ms  DeleteObjects: 1.080400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 223434.178855 seconds.
+  path: Assets/Sprites/SpriteIngles.png
+  artifactKey: Guid(1496871d626220047989216f11adb0b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteIngles.png using Guid(1496871d626220047989216f11adb0b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df508f51c88a81a85d4bcf5b7b3dd0ec') in 0.1735319 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000018 seconds.
   path: Assets/Sprites/EdifioN.png
   artifactKey: Guid(214feed88da7216448ce952aaa2f3a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -313,10 +450,17 @@ Received Import Request.
   path: Assets/Sprites/SpriteAdjonita.png
   artifactKey: Guid(190bb9becd43ad344b3f69ec5b4f850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteAdjonita.png using Guid(190bb9becd43ad344b3f69ec5b4f850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bb588068064637d71f71e1f9c622275') in 0.0163489 seconds
+=======
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/SpriteZamora.png
+  artifactKey: Guid(8c9effccc174e044bb4ec9a89f5371dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteZamora.png using Guid(8c9effccc174e044bb4ec9a89f5371dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8232a730f4d72254152e726cf55efb84') in 0.0463522 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000017 seconds.
   path: Assets/Sprites/SpriteBosques.png
   artifactKey: Guid(b2a44c7ca982de94b86e7bf9e7375ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -361,35 +505,118 @@ Received Import Request.
   path: Assets/Sprites/SpriteGuero.png
   artifactKey: Guid(dada1a644e9e7604589ef0e6a19cd5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteGuero.png using Guid(dada1a644e9e7604589ef0e6a19cd5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67ea6a5b4cd8c5f85def7f18f5136387') in 0.0176116 seconds
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SpriteGuero.png
+  artifactKey: Guid(dada1a644e9e7604589ef0e6a19cd5c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteGuero.png using Guid(dada1a644e9e7604589ef0e6a19cd5c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1f0d5057a104550e2e9936624323565') in 0.0487785 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.172519 seconds.
   path: Assets/Sprites/SpriteLeo.png
   artifactKey: Guid(8c98fa0b29a53e44e8df6b17760c989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteLeo.png using Guid(8c98fa0b29a53e44e8df6b17760c989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b616cd5209839bd11e56b81af3451d7') in 0.0160449 seconds
+=======
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/SpriteDomingo.png
+  artifactKey: Guid(0706c23f59f910843896fb338e50fb5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteDomingo.png using Guid(0706c23f59f910843896fb338e50fb5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd6044127f77ee48863012bc4e2fb445') in 0.051014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/SpriteDirectora.png
+  artifactKey: Guid(fced074afd1e0cf49a96cb37a0d01d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteDirectora.png using Guid(fced074afd1e0cf49a96cb37a0d01d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b058689bedbc1d6e757c5971c830eee5') in 0.0445906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/SpriteGloria.png
+  artifactKey: Guid(83a4da9bccc028e49b26c2f73612607f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteGloria.png using Guid(83a4da9bccc028e49b26c2f73612607f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '562204baa4cc68c48e2f28cd28fe0a7c') in 0.0404535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/SpritePadilla.png
+  artifactKey: Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpritePadilla.png using Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ce3c3ddc373be8530d9b1354df7907d') in 0.0500441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/SpriteQuiñones.png
+  artifactKey: Guid(3751a27b69ee44d4795596f9984ac7dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteQuiñones.png using Guid(3751a27b69ee44d4795596f9984ac7dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62f991a90bac117476fbfcfd6ef2342a') in 0.0777645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/DEJI.unity
+  artifactKey: Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DEJI.unity using Guid(0056968315a52ea45ab0322718c53609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ac60fa87319c04c3f9211db2d93a403') in 0.0440406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/SpritePayan.png
+  artifactKey: Guid(f22d0e4da5ee04d458c845ea648ac856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpritePayan.png using Guid(f22d0e4da5ee04d458c845ea648ac856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed4e37b42eff43e39671292696ea7e03') in 0.0561829 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
+<<<<<<< HEAD
   path: Assets/Sprites/SpriteMoni.png
   artifactKey: Guid(7feb05398b9372948ab6eb26f5ac0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteMoni.png using Guid(7feb05398b9372948ab6eb26f5ac0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86ce6ac777d5d2666e1a751ec71f1a85') in 0.0309264 seconds
+=======
+  path: Assets/Sprites/SpriteMartha.png
+  artifactKey: Guid(8ccb49f2f50f5934ca609f51f0bd99a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteMartha.png using Guid(8ccb49f2f50f5934ca609f51f0bd99a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a8cdc7ceeb85b9a34cf6d737c447585') in 0.0514795 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000017 seconds.
   path: Assets/Sprites/SpriteOropeza.png
   artifactKey: Guid(1d5e6b001b484134a91ab402ad715ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteOropeza.png using Guid(1d5e6b001b484134a91ab402ad715ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fae72e42cacb001a860897eddcc8436') in 0.015555 seconds
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/SpriteDalet.png
+  artifactKey: Guid(823e1e93e94a16d48b291eb2bc7f7e5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/SpriteDalet.png using Guid(823e1e93e94a16d48b291eb2bc7f7e5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f984637056f719bc3f38fbb5eb334890') in 0.0487463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.761541 seconds.
+  path: Assets/Sprites/SpriteOropeza.png
+  artifactKey: Guid(1d5e6b001b484134a91ab402ad715ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteOropeza.png using Guid(1d5e6b001b484134a91ab402ad715ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f079e8f47f801a0a3a8fa144e82133d2') in 0.1218796 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
+<<<<<<< HEAD
   path: Assets/Sprites/SpritePadilla.png
   artifactKey: Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpritePadilla.png using Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7b0d71abafd0b86e0e6f5d3306c59cd') in 0.0217343 seconds
@@ -409,5 +636,26 @@ Received Import Request.
   path: Assets/Sprites/SpriteZamora512 1.png
   artifactKey: Guid(cf181b164de0ed240b7a00ca8a5f26fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/SpriteZamora512 1.png using Guid(cf181b164de0ed240b7a00ca8a5f26fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4511e14388f69d36b7a6cac054bde99f') in 0.021478 seconds
+=======
+  path: Assets/Sprites/SpriteRosales.png
+  artifactKey: Guid(be0ec51cc60937043b1307c6d0bed997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteRosales.png using Guid(be0ec51cc60937043b1307c6d0bed997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3f5409a038dc7f2851ff0db3a9b0cf') in 0.0478222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites/SrpiteBuda.png
+  artifactKey: Guid(c4c825fb4f298d841a9106bd9fdd15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SrpiteBuda.png using Guid(c4c825fb4f298d841a9106bd9fdd15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10615768a9ba3bc6dbcb304a17c7219d') in 0.0466131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/SpritePadilla.png
+  artifactKey: Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpritePadilla.png using Guid(d62e3fd4ff439844681fbac4612ddfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdaebf2f5d2ad8cd983503c47daf7c5b') in 0.0468793 seconds
+>>>>>>> isidro
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 

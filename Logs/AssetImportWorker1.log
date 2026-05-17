@@ -1,4 +1,5 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+<<<<<<< HEAD
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 15636 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
@@ -6,6 +7,15 @@ System  architecture: x64
 Process architecture: x64
 Date: 2026-05-16T01:03:32Z
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-emili" at "2026-05-16T01:03:32.528691Z"
+=======
+Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-isiar" at "2026-05-17T13:59:01.5207239Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'es' Physical Memory: 40663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-17T13:59:01Z
+>>>>>>> isidro
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +29,11 @@ C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 55812
+=======
+52088
+>>>>>>> isidro
 -licensingIpc
 LicenseClient-emili
 -job-worker-count
@@ -67,6 +81,7 @@ C:/Users/emili/OneDrive/Documentos/Escuela/Plataforma2D/Tec
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [19144]  Target information:
 
 Player connection [19144]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2822056183 [EditorId] 2822056183 [Version] 1048832 [Id] WindowsEditor(7,Emiliano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -81,6 +96,16 @@ Player connection [19144]  * "[IP] 25.20.186.213 [Port] 0 [Flags] 2 [Guid] 28220
 
 Player connection [19144] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [19144] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [30968]  Target information:
+
+Player connection [30968]  * "[IP] 169.254.51.32 [Port] 0 [Flags] 2 [Guid] 2917459550 [EditorId] 2917459550 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30968]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2917459550 [EditorId] 2917459550 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> isidro
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -92,7 +117,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 4.97 ms, found 4 plugins.
+>>>>>>> isidro
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -105,6 +134,7 @@ Direct3D:
     VRAM:     5920 MB
     Driver:   32.0.15.9597
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
@@ -114,6 +144,17 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.001594 seconds.
 - Loaded All Assemblies, in  0.345 seconds
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002550 seconds.
+- Loaded All Assemblies, in  0.555 seconds
+>>>>>>> isidro
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
@@ -126,14 +167,21 @@ Native extension for WindowsStandalone target not found
 [Licensing::Module] Licensing Background thread has ended after 0.99s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.397 seconds
 Domain Reload Profiling: 740ms
 	BeginReloadAssembly (108ms)
+=======
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (170ms)
+>>>>>>> isidro
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (40ms)
@@ -155,6 +203,29 @@ Domain Reload Profiling: 740ms
 			BeforeProcessingInitializeOnLoad (79ms)
 			ProcessInitializeOnLoadAttributes (158ms)
 			ProcessInitializeOnLoadMethodAttributes (70ms)
+=======
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (68ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+>>>>>>> isidro
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,14 +234,33 @@ Domain Reload Profiling: 740ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
+=======
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              157747abf834433cac8a2c64878a769b
+  Correlation Id:          62bd9e6e98b5516cdd1607cd1ae36802
+  External correlation Id: 8887285522955674143
+  Machine Id:              sZv3vK/XFhM9nFTPxPf8/zDPC8M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-isiar" (connect: 0.00s, validation: 0.00s, handshake: 2.55s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-isiar-notifications" at "2026-05-17T13:59:04.0777589Z"
+[Licensing::Module] Licensing Background thread has ended after 2.56s
+[Licensing::Module] Licensing is initialized (took 0.04s).
+>>>>>>> isidro
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674159481341-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.598 seconds
 Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+>>>>>>> isidro
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -178,6 +268,7 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.559 seconds
 Domain Reload Profiling: 1155ms
 	BeginReloadAssembly (165ms)
@@ -218,4 +309,78 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 5013 unused Assets / (1.2 MB). Loaded Objects now: 5599.
 Memory consumption went from 102.5 MB to 101.3 MB.
 Total: 7.336100 ms (FindLiveObjects: 0.563200 ms CreateObjectMapping: 0.240300 ms MarkObjects: 5.320700 ms  DeleteObjects: 1.210900 ms)
+=======
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 1820ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5014 unused Assets / (1.4 MB). Loaded Objects now: 5597.
+Memory consumption went from 100.5 MB to 99.1 MB.
+Total: 8.183100 ms (FindLiveObjects: 0.448100 ms CreateObjectMapping: 0.334200 ms MarkObjects: 5.855100 ms  DeleteObjects: 1.543800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 223762.902603 seconds.
+  path: Assets/Sprites/Auditorio.png
+  artifactKey: Guid(7b0391905eea8c04db102768c08f179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Auditorio.png using Guid(7b0391905eea8c04db102768c08f179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '899f061bf7d9b51242d610c9474b820e') in 0.0938292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.143707 seconds.
+  path: Assets/Capturas/Game Boy Advance - Pokemon FireRed _ LeafGreen - Tilesets - Tileset 2.png
+  artifactKey: Guid(62cff8817a1f01e44814efce59347395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capturas/Game Boy Advance - Pokemon FireRed _ LeafGreen - Tilesets - Tileset 2.png using Guid(62cff8817a1f01e44814efce59347395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b96800f66433077165e85088c40d0cb') in 5.2699065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2314
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Capturas/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg.png
+  artifactKey: Guid(ed5728fa70b45e548bb8569ca544bbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capturas/pokemon_gaia_project_tileset_1_by_zetavares852_d2kspbg.png using Guid(ed5728fa70b45e548bb8569ca544bbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc5a021072b31e0e91ee4e246f22131') in 0.0968788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Capturas/Game Boy Advance - Pokemon FireRed _ LeafGreen - Tilesets - Tileset 3.png
+  artifactKey: Guid(54059d8bbc61d8c4d8f4d889d6b7e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capturas/Game Boy Advance - Pokemon FireRed _ LeafGreen - Tilesets - Tileset 3.png using Guid(54059d8bbc61d8c4d8f4d889d6b7e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd89892decffc4a7f73931efa93a5fd0') in 4.4420922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2314
+>>>>>>> isidro
 
