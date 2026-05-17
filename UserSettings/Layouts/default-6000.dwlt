@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 91
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 794
+    y: 691
     width: 1643
     height: 240
   m_SerializedDataModeController:
@@ -618,8 +618,7 @@ MonoBehaviour:
       m_Data: 41864
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 41770
-    - m_Data: 1000000000
+    - m_Data: 58408
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +651,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 41770
+    - m_Data: 58408
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,8 +740,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1644
-    y: 127
+    x: 1645
+    y: 24
     width: 275
     height: 907
   m_SerializedDataModeController:
@@ -793,7 +792,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 127
+    y: 24
     width: 311
     height: 641
   m_SerializedDataModeController:
@@ -812,8 +811,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 61798
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -866,8 +864,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 312
-    y: 127
+    x: 313
+    y: 24
     width: 1330
     height: 641
   m_SerializedDataModeController:
@@ -1344,7 +1342,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.30819374, y: -0.3371163, z: -0.081736885}
     speed: 2
-    m_Value: {x: -0.45683312, y: -0.3184483, z: -0.079570696}
+    m_Value: {x: -0.30819374, y: -0.3371163, z: -0.081736885}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1396,7 +1394,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 5.0303755
     speed: 2
-    m_Value: 4.8137565
+    m_Value: 5.0303755
   m_Ortho:
     m_Target: 1
     speed: 2
