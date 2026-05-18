@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DEJI Inicio.unity
     guid: 47f7216c34061524c8042ba2d5ff771c
   - enabled: 1
-    path: Assets/Scenes/DEJI Cope.unity
+    path: Assets/Scenes/DEJI cope.unity
     guid: 938efbae53c23f84ebfe07badc048e32
   - enabled: 1
     path: Assets/Scenes/DEJI biblio.unity
