@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fdc03a2352a82d24d9cd657be7a04a69
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - telecomEnemy: {instanceID: 0}
+  - electronicsEnemy: {instanceID: 0}
+  - automatasEnemy: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

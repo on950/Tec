@@ -22,7 +22,7 @@ public class EnemyData : ScriptableObject
     public Color secondaryColor;
 
     [Header("Combate")]
-    public GameObject attackSpawnerPrefab;
+    public GameObject[] attackSpawnerPrefabs;
 
     [TextArea]
     public string[] actDialogues;

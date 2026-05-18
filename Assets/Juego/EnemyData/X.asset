@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b4499cf2065d44db3d30fa6d15fadb, type: 3}
+  m_Name: X
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Payan
+  introText: ??
+  enemySprite: {fileID: -3337039340604131486, guid: f22d0e4da5ee04d458c845ea648ac856, type: 3}
+  maxHealth: 20
+  usesBlueSoul: 1
+  primaryColor: {r: 0.8666667, g: 0.627451, b: 0.8666667, a: 1}
+  secondaryColor: {r: 0.5450981, g: 0, b: 0.5450981, a: 1}
+  attackSpawnerPrefabs:
+  - {fileID: 738832137396567539, guid: 159f294030032204980c78c28eca8b5e, type: 3}
+  actDialogues:
+  - Me la pelas
+  enemyTurnDialogues: []

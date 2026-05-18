@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1162866353069487229}
   - component: {fileID: 8125456819519830247}
   - component: {fileID: 5750720255626373634}
-  - component: {fileID: 8950736052121628261}
   - component: {fileID: 740019264219904041}
   - component: {fileID: 6705194857555353648}
+  - component: {fileID: 3043855714487154483}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -4389069686697591185, guid: e7d5f9c810a5de24fa2749031d8a18a6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -122,8 +122,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &8950736052121628261
-CircleCollider2D:
+--- !u!114 &740019264219904041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104113749347809896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9501b9cb31447ba40b660c47bce0bd81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  speed: 5
+  jumpForce: 8
+  blueSoul: 0
+  ground: {fileID: 0}
+--- !u!114 &6705194857555353648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104113749347809896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39084611809adc54782cf7a202c03c66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+--- !u!60 &3043855714487154483
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -157,32 +185,69 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
---- !u!114 &740019264219904041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104113749347809896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9501b9cb31447ba40b660c47bce0bd81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5
-  jumpForce: 8
-  blueSoul: 0
-  ground: {fileID: 0}
---- !u!114 &6705194857555353648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104113749347809896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39084611809adc54782cf7a202c03c66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.46, y: 2.92}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.01, y: -0.72999996}
+      - {x: 1.23, y: -0.51}
+      - {x: 1.39, y: -0.31}
+      - {x: 1.48, y: -0.17999999}
+      - {x: 1.55, y: -0.06}
+      - {x: 1.66, y: 0.16}
+      - {x: 1.68, y: 0.26999998}
+      - {x: 1.7199999, y: 0.45999998}
+      - {x: 1.7199999, y: 0.77}
+      - {x: 1.67, y: 0.9}
+      - {x: 1.5899999, y: 1.06}
+      - {x: 1.51, y: 1.17}
+      - {x: 1.39, y: 1.28}
+      - {x: 1.28, y: 1.35}
+      - {x: 1.11, y: 1.43}
+      - {x: 0.95, y: 1.4499999}
+      - {x: 0.72999996, y: 1.4499999}
+      - {x: 0.59, y: 1.43}
+      - {x: 0.39, y: 1.37}
+      - {x: 0.29999998, y: 1.3399999}
+      - {x: 0.099999994, y: 1.22}
+      - {x: 0.07, y: 1.18}
+      - {x: -0.07, y: 1.18}
+      - {x: -0.19999999, y: 1.27}
+      - {x: -0.42999998, y: 1.38}
+      - {x: -0.52, y: 1.41}
+      - {x: -0.59999996, y: 1.43}
+      - {x: -0.71999997, y: 1.4499999}
+      - {x: -0.97999996, y: 1.4499999}
+      - {x: -1.09, y: 1.42}
+      - {x: -1.2099999, y: 1.38}
+      - {x: -1.38, y: 1.29}
+      - {x: -1.53, y: 1.15}
+      - {x: -1.65, y: 0.98999995}
+      - {x: -1.6899999, y: 0.9}
+      - {x: -1.7199999, y: 0.72999996}
+      - {x: -1.7199999, y: 0.39}
+      - {x: -1.6999999, y: 0.31}
+      - {x: -1.67, y: 0.16}
+      - {x: -1.52, y: -0.14999999}
+      - {x: -1.4699999, y: -0.21}
+      - {x: -1.37, y: -0.35}
+      - {x: -1.25, y: -0.48999998}
+      - {x: -0.96, y: -0.77}
+      - {x: -0.88, y: -0.84}
+      - {x: -0.74, y: -0.96}
+      - {x: -0.56, y: -1.1}
+      - {x: -0.34, y: -1.26}
+      - {x: -0.04, y: -1.4499999}
+      - {x: 0.01, y: -1.4499999}
+      - {x: 0.06, y: -1.4399999}
+      - {x: 0.35, y: -1.25}
+      - {x: 0.52, y: -1.13}
+      - {x: 0.84, y: -0.88}
+  m_UseDelaunayMesh: 1

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &334348814508333245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7066491555556400709}
+  - component: {fileID: 6577197241952866222}
+  m_Layer: 0
+  m_Name: GenericAttackSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7066491555556400709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334348814508333245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.50481, y: 0.39027, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6577197241952866222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334348814508333245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a8e20ca6bd81f4ba5bc99a6a1325fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenericAttackSpawner
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1
+  projectilePrefab: {fileID: 1630563739125573875, guid: 2d960a06c04e4694ca350a8387c5ee3a, type: 3}
+  fallingAttackPrefab: {fileID: 7640856891513835212, guid: b987211bf2cbf8c4297dcc6aabf16ed3, type: 3}
+  damageZonePrefab: {fileID: 8638700587996806839, guid: a562ecdb71ee6bb40a78062c7e04bf97, type: 3}
+  spawnRate: 1
+  projectileSpeed: 7
+  fallingSpeed: 8
+  minX: -4
+  maxX: 4
+  minY: -2.5
+  maxY: 2.5
+  margin: 0.3
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1
+  projectileWeight: 3
+  fallingWeight: 3
+  zoneWeight: 1

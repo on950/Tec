@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: e9c5a1c25ba17d441829c74ca9915226
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8679214562017103556
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_0
+  - first:
+      213: -6923959531204316809
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_1
+  - first:
+      213: -853593730499855513
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_2
+  - first:
+      213: 6857328184287932436
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_3
+  - first:
+      213: -8960732753876643071
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_4
+  - first:
+      213: 7165674487197421164
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_5
+  - first:
+      213: 934425756669819637
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_6
+  - first:
+      213: -5298457104425983323
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_7
+  - first:
+      213: -6231967862935068248
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_8
+  - first:
+      213: -256472828221163445
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_9
+  - first:
+      213: 317870322420871710
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_10
+  - first:
+      213: -4494427794825520089
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_11
+  - first:
+      213: -6383486626398152469
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_12
+  - first:
+      213: 296735800262234377
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_13
+  - first:
+      213: 372525035844241041
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_14
+  - first:
+      213: -4360255045627585868
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_15
+  - first:
+      213: -2971560567845239104
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_16
+  - first:
+      213: -4836248464175841468
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_17
+  - first:
+      213: -5742398759433251670
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_18
+  - first:
+      213: 3245043066440422234
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_19
+  - first:
+      213: 1591040452363171076
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_20
+  - first:
+      213: 4505363865998551461
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_21
+  - first:
+      213: 214951322135698141
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_22
+  - first:
+      213: -8205226419113361400
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_23
+  - first:
+      213: -4662678281147069901
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_24
+  - first:
+      213: 9174091184868771723
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_25
+  - first:
+      213: 3793795199738190290
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_26
+  - first:
+      213: 3145112147720342555
+    second: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 182
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce4d62e8a3c27870800000000000000
+      internalID: 8679214562017103556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771f267bd7729ef90800000000000000
+      internalID: -6923959531204316809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b3e0f460d6724f0800000000000000
+      internalID: -853593730499855513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 141
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410b1c4e6af1a2f50800000000000000
+      internalID: 6857328184287932436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 142
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10399fd490515a380800000000000000
+      internalID: -8960732753876643071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 148
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4b711bf6917360800000000000000
+      internalID: 7165674487197421164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 153
+        width: 91
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab74f564fb7fc00800000000000000
+      internalID: 934425756669819637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 164
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a26b0106591876b0800000000000000
+      internalID: -5298457104425983323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1ea1e3f3a9389a0800000000000000
+      internalID: -6231967862935068248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4876535253d07cf0800000000000000
+      internalID: -256472828221163445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12f884cf5d496400800000000000000
+      internalID: 317870322420871710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 89
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c58ccabb590a1c0800000000000000
+      internalID: -4494427794825520089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 55
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8d4150cbc4967a0800000000000000
+      internalID: -6383486626398152469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 42
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90195ce53a73e1400800000000000000
+      internalID: 296735800262234377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968f6fdb897b2500800000000000000
+      internalID: 372525035844241041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 92
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba534b33234d73c0800000000000000
+      internalID: -4360255045627585868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 79
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6c6055865e2c6d0800000000000000
+      internalID: -2971560567845239104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 79
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f354735a132ecb0800000000000000
+      internalID: -4836248464175841468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 89
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa45659b0c6ee40b0800000000000000
+      internalID: -5742398759433251670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 52
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a539608d975b80d20800000000000000
+      internalID: 3245043066440422234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 60
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405326a9cd2841610800000000000000
+      internalID: 1591040452363171076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 45
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a969b0d094468e30800000000000000
+      internalID: 4505363865998551461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 52
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda16efa619abf200800000000000000
+      internalID: 214951322135698141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 44
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80009138b0e212e80800000000000000
+      internalID: -8205226419113361400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 50
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33acc46aec6da4fb0800000000000000
+      internalID: -4662678281147069901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 57
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b874523835be05f70800000000000000
+      internalID: 9174091184868771723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d91afe32a446a430800000000000000
+      internalID: 3793795199738190290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c03a7b5dea5ab20800000000000000
+      internalID: 3145112147720342555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_0: 8679214562017103556
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_1: -6923959531204316809
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_10: 317870322420871710
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_11: -4494427794825520089
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_12: -6383486626398152469
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_13: 296735800262234377
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_14: 372525035844241041
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_15: -4360255045627585868
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_16: -2971560567845239104
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_17: -4836248464175841468
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_18: -5742398759433251670
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_19: 3245043066440422234
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_2: -853593730499855513
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_20: 1591040452363171076
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_21: 4505363865998551461
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_22: 214951322135698141
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_23: -8205226419113361400
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_24: -4662678281147069901
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_25: 9174091184868771723
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_26: 3793795199738190290
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_27: 3145112147720342555
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_3: 6857328184287932436
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_4: -8960732753876643071
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_5: 7165674487197421164
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_6: 934425756669819637
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_7: -5298457104425983323
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_8: -6231967862935068248
+      Pixel_art_fireball__Game_icons_set._Comic_boom_flame_effects_for_emotion._Stock_Vector___Adobe_Stock-removebg-preview_9: -256472828221163445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

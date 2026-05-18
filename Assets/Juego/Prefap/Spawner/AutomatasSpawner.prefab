@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142156125329013922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5493861080058236534}
+  - component: {fileID: 2546312749994470800}
+  m_Layer: 0
+  m_Name: AutomatasSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5493861080058236534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142156125329013922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2546312749994470800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142156125329013922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8dacf5f0f82c04a9d5cc3543143fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutomataSpawner
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1
+  stateNodePrefab: {fileID: 9135516942681224338, guid: 7d3702127f97ef84789400bbc2620d40, type: 3}
+  transitionArrowPrefab: {fileID: 636405196414498425, guid: 0b1198312e29f42429989c4bccafb3cd, type: 3}
+  trapStatePrefab: {fileID: 6748309818827277487, guid: 08afeb8da69174d4e8e3ed0ca1c0c8f6, type: 3}
+  spawnRate: 1
+  nodeSpeed: 7
+  minX: -4
+  maxX: 4
+  minY: -2.2
+  maxY: 2.2
+  margin: 0.3
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1

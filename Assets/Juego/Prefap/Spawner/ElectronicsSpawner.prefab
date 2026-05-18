@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &738832137396567539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3190620921735236295}
+  - component: {fileID: 5793394080094895970}
+  m_Layer: 0
+  m_Name: ElectronicsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3190620921735236295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738832137396567539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.18896, y: -0.53012, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5793394080094895970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738832137396567539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c481e58519feb14a8c72b53411550d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ElectronicsSpawner
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1
+  electricSparkPrefab: {fileID: 2024501789186911581, guid: ca5260010bfcd054fb67fd8db6c8a40d, type: 3}
+  voltageRayPrefab: {fileID: 5330971076611490111, guid: 3cee8a429d187e9468961954f067cedd, type: 3}
+  circuitOverloadPrefab: {fileID: 7919870766796609819, guid: a07d607404abb7e449e4447e6666f6f5, type: 3}
+  spawnRate: 1
+  sparkSpeed: 9
+  minX: -4
+  maxX: 4
+  minY: -2.2
+  maxY: 2.2
+  canSpawn: 0
+  blueSoulPattern: 0
+  phase: 1

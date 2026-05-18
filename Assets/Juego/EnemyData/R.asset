@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b4499cf2065d44db3d30fa6d15fadb, type: 3}
+  m_Name: R
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: R
+  introText: 
+  enemySprite: {fileID: -7557575840080555521, guid: be0ec51cc60937043b1307c6d0bed997, type: 3}
+  maxHealth: 20
+  usesBlueSoul: 0
+  primaryColor: {r: 0, g: 1, b: 0, a: 1}
+  secondaryColor: {r: 0, g: 0.3921569, b: 0, a: 1}
+  attackSpawnerPrefabs:
+  - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
+  actDialogues: []
+  enemyTurnDialogues: []
