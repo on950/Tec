@@ -5,9 +5,96 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DPixelFantasyTilemapFree/Scenes/BaseScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DEJI Inicio.unity
+    guid: 47f7216c34061524c8042ba2d5ff771c
+  - enabled: 1
+    path: Assets/Scenes/DEJI Cope.unity
+    guid: 938efbae53c23f84ebfe07badc048e32
+  - enabled: 1
+    path: Assets/Scenes/DEJI biblio.unity
+    guid: 073888b83c3b3dd4b9d6a82bc3a100ca
+  - enabled: 1
+    path: Assets/Scenes/DEJI Oxxito.unity
+    guid: 85f2ffcd8cf2fdc429f06e65cd419e5a
+  - enabled: 1
+    path: Assets/Scenes/DEJI SalidaK.unity
+    guid: 40935796d578b884fb963882fdcdf366
+  - enabled: 1
+    path: Assets/Scenes/FKGVH Inicio.unity
+    guid: d7b997f7395d0cc4da58e1ba0c4cba97
+  - enabled: 1
+    path: Assets/Scenes/ACR Biblio.unity
+    guid: 64bb612f72424254ca24bbb80767d083
+  - enabled: 1
+    path: Assets/Scenes/ACR Cope.unity
+    guid: 57b829315f69dd54eb51e20d1f5707d4
+  - enabled: 1
+    path: Assets/Scenes/ACR Inicio.unity
+    guid: 6b9eee6135712e044a972a607f011a8f
+  - enabled: 1
+    path: Assets/Scenes/FKGVH SalidaC.unity
+    guid: 69267213303ea5c4ba8d3e21a1d0731f
+  - enabled: 1
+    path: Assets/Scenes/FKGVH SalidaE.unity
+    guid: e065868153cd29e4cb7f00d5cdc35876
+  - enabled: 1
+    path: Assets/Scenes/FKGVH SalidaO.unity
+    guid: d14205c551eeb834dadcad3350515a60
+  - enabled: 1
+    path: Assets/Scenes/FKGVH SalidaP.unity
+    guid: b7c58ba7b469a0b40991fc0caabc4e54
+  - enabled: 1
+    path: Assets/Scenes/FKGVH Servicios.unity
+    guid: e5dea5e906525a045a5686a4cb643807
+  - enabled: 1
+    path: Assets/Scenes/B ACR.unity
+    guid: 5d2d4c179d1c43f4f895e277380dfac6
+  - enabled: 1
+    path: Assets/Scenes/B Inicio.unity
+    guid: cabb8a575624a174e98ed48212dcb812
+  - enabled: 1
+    path: Assets/Scenes/MNS J.unity
+    guid: c74c5d8189997aa47987111415d8578e
+  - enabled: 1
+    path: Assets/Scenes/MNS O.unity
+    guid: 2c4ab47eec89e6845b7d5a3e2f96eee9
+  - enabled: 1
+    path: Assets/Scenes/MNS Q1.unity
+    guid: 2156274bbd93a81418f92c18317faefb
+  - enabled: 1
+    path: Assets/Scenes/MNS Q2.unity
+    guid: a8190129a8198fd48a9efa38f6c7b1c8
+  - enabled: 1
+    path: Assets/Scenes/MNS X.unity
+    guid: 1c80a41127c27f94b9b3716850ebdbd1
+  - enabled: 1
+    path: Assets/Scenes/OPQ K.unity
+    guid: b7bce46a6f1614c4f8dce7756f55bd56
+  - enabled: 1
+    path: Assets/Scenes/OPQ Oxxito.unity
+    guid: 8941df143da9f7845863eff15b3285d4
+  - enabled: 1
+    path: Assets/Scenes/OPQ Q1.unity
+    guid: 31a2cdbd1e3e7ab4ea1124f0d563d848
+  - enabled: 1
+    path: Assets/Scenes/OPQ Q2.unity
+    guid: a49b2ed297c03774db5a9be908f52097
+  - enabled: 1
+    path: Assets/Scenes/OPQ V.unity
+    guid: 5df8f09194e1b7b42a43d0d3ad6a31c0
+  - enabled: 1
+    path: Assets/Scenes/XW Q.unity
+    guid: 4660bb9ad174c6549aed5bb879700b54
+  - enabled: 1
+    path: Assets/Scenes/XW Y.unity
+    guid: e25f3789d1db1ca4595158a79674ac23
+  - enabled: 1
+    path: Assets/Scenes/Y.unity
+    guid: 014e3f93e17111f4f834e9b34d7c53bf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
