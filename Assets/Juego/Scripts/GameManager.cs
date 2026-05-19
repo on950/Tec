@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public TelecomSpawner telecomSpawner;
     public GameObject buttonsPanel, retryButton;
 
+    public BattleManager battleManager;
+
     private bool isGameOver = false;
 
     void Awake()
@@ -111,14 +113,29 @@ public class GameManager : MonoBehaviour
             telecomSpawner.StopSpawning();
         }
 
+        // Desactivar menú de acciones
         if (buttonsPanel != null)
         {
             buttonsPanel.SetActive(false);
         }
 
+        // Avisar al BattleManager
+        if (battleManager != null)
+        {
+            battleManager.ForceLoseBattle();
+        }
+
+        // Mostrar Retry
         if (retryButton != null)
         {
             retryButton.SetActive(true);
+        }
+
+        if (buttonsPanel != null)
+        {
+            Debug.Log("Desactivando: " + buttonsPanel.name);
+
+            buttonsPanel.SetActive(false);
         }
 
         Debug.Log("GAME OVER");

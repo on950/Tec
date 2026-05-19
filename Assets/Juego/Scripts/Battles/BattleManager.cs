@@ -8,6 +8,13 @@ public class BattleManager : MonoBehaviour
 {
     int actCount = 0;
 
+    int selectedButton = 0;
+    float inputCooldown = 0.25f;
+    float inputTimer = 0f;
+
+    private bool usingController;
+    private bool mouseIsSelecting = false;
+
     bool mercyAvailable = false;
     public enum BattleState
     {
@@ -36,6 +43,7 @@ public class BattleManager : MonoBehaviour
     public PlayerMovement playerMovement;
 
     public GameObject continueButton;
+    public GameObject retryButton;
 
     public EnemyData enemyData;
 
@@ -61,6 +69,10 @@ public class BattleManager : MonoBehaviour
 
     void Start()
     {
+        if (dialogueText != null)
+        {
+            dialogueText.gameObject.SetActive(true);
+        }
         if (BattleRequest.selectedEnemy != null)
         {
             enemyData = BattleRequest.selectedEnemy;
@@ -124,13 +136,108 @@ public class BattleManager : MonoBehaviour
         StartPlayerTurn();
     }
 
+    void Update()
+    {
+        usingController = Input.GetJoystickNames().Length > 0 &&
+                  !string.IsNullOrEmpty(Input.GetJoystickNames()[0]);
+        if (currentState == BattleState.WON)
+        {
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
+            {
+                ContinueAfterBattle();
+            }
+
+            return;
+        }
+
+        if (currentState == BattleState.LOST)
+        {
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
+            {
+                GameManager.instance.RetryBattle();
+            }
+
+            return;
+        }
+        if (currentState != BattleState.PLAYERTURN)
+            return;
+
+        if (Input.GetKeyDown(KeyCode.JoystickButton4))
+        {
+            mouseIsSelecting = false;
+
+            selectedButton--;
+            if (selectedButton < 0)
+                selectedButton = 3;
+
+            UpdateButtonSelection();
+
+            Debug.Log("Seleccionado: " + selectedButton);
+        }
+
+        if (Input.GetKeyDown(KeyCode.JoystickButton5))
+        {
+            mouseIsSelecting = false;
+
+            selectedButton++;
+            if (selectedButton > 3)
+                selectedButton = 0;
+
+            UpdateButtonSelection();
+
+            Debug.Log("Seleccionado: " + selectedButton);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
+        {
+            ExecuteSelectedButton();
+        }
+    }
+
+    public void RetryBattle()
+    {
+        Debug.Log("Reintentando batalla.");
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void ExecuteSelectedButton()
+    {
+        switch (selectedButton)
+        {
+            case 0:
+                Fight();
+                break;
+
+            case 1:
+                Act();
+                break;
+
+            case 2:
+                Item();
+                break;
+
+            case 3:
+                Mercy();
+                break;
+        }
+    }
+
     void StartPlayerTurn()
     {
+        mouseIsSelecting = false;
+        selectedButton = 0;
+        UpdateButtonSelection();
+        if (currentState == BattleState.LOST)
+            return;
+
         currentState = BattleState.PLAYERTURN;
 
         dialogueText.text = "* ¿Qué harás?";
 
         buttonsPanel.SetActive(true);
+        selectedButton = 0;
+        UpdateButtonSelection();
 
         if (attackSpawner != null)
         {
@@ -139,6 +246,32 @@ public class BattleManager : MonoBehaviour
         }
 
         playerMovement.ActivateRedSoul();
+    }
+
+    public void ForceLoseBattle()
+    {
+        currentState = BattleState.LOST;
+
+        CancelInvoke();
+        StopAllCoroutines();
+
+        if (attackSpawner != null)
+        {
+            attackSpawner.StopSpawning();
+            attackSpawner.SetBlueSoulPattern(false);
+        }
+
+        if (buttonsPanel != null)
+            buttonsPanel.SetActive(false);
+
+        if (continueButton != null)
+            continueButton.SetActive(false);
+
+        // NUEVO
+        if (dialogueText != null)
+            dialogueText.gameObject.SetActive(false);
+
+        Debug.Log("BattleManager cambió a LOST");
     }
 
     void StartEnemyTurn()
@@ -340,6 +473,34 @@ public class BattleManager : MonoBehaviour
         Debug.Log("VICTORIA");
     }
 
+    void LoseBattle()
+    {
+        currentState = BattleState.LOST;
+
+        dialogueText.text = "* Has sido derrotado.";
+
+        if (attackSpawner != null)
+        {
+            attackSpawner.StopSpawning();
+            attackSpawner.SetBlueSoulPattern(false);
+        }
+
+        playerMovement.ActivateRedSoul();
+
+        // Desactivar menú de acciones
+        buttonsPanel.SetActive(false);
+
+        // Ocultar continuar por seguridad
+        if (continueButton != null)
+            continueButton.SetActive(false);
+
+        // Mostrar retry
+        if (retryButton != null)
+            retryButton.SetActive(true);
+
+        Debug.Log("DERROTA");
+    }
+
     public void ContinueAfterBattle()
     {
         Debug.Log("Continuar después de la batalla.");
@@ -387,6 +548,44 @@ public class BattleManager : MonoBehaviour
 
         if (mercyText != null)
             mercyText.color = enemyData.primaryColor;
+
+        UpdateButtonSelection();
+    }
+
+    void UpdateButtonSelection()
+    {
+        Color normal = Color.white;
+        Color selected = Color.yellow;
+
+        if (enemyData != null)
+        {
+            normal = enemyData.primaryColor;
+            selected = enemyData.secondaryColor;
+        }
+
+        fightText.color = normal;
+        actText.color = normal;
+        itemText.color = normal;
+        mercyText.color = normal;
+
+        if (selectedButton == 0)
+            fightText.color = selected;
+
+        if (selectedButton == 1)
+            actText.color = selected;
+
+        if (selectedButton == 2)
+            itemText.color = selected;
+
+        if (selectedButton == 3)
+            mercyText.color = selected;
+    }
+
+    public void HoverButton(int index)
+    {
+        mouseIsSelecting = true;
+        selectedButton = index;
+        UpdateButtonSelection();
     }
 
     public void ChangeEnemy(EnemyData newEnemy)
