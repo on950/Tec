@@ -15,7 +15,7 @@ MonoBehaviour:
   enemyName: Y1
   introText: 
   enemySprite: {fileID: 572991843601750885, guid: 5127047b3abe18a4c9996252f08ad22d, type: 3}
-  maxHealth: 20
+  maxHealth: 1
   usesBlueSoul: 0
   primaryColor: {r: 0.1960784, g: 0.8039216, b: 0.1960784, a: 1}
   secondaryColor: {r: 0.1843137, g: 0.3098039, b: 0.3098039, a: 1}

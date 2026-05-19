@@ -6,15 +6,10 @@ public class TelecomSpawner : BaseAttackSpawner
     public GameObject interferenceZonePrefab;
     public GameObject dataPulsePrefab;
 
-    public int phase = 1;
-
     public float spawnRate = 1f;
     public float signalSpeed = 8f;
 
     private float timer;
-
-    public bool canSpawn = false;
-    public bool blueSoulPattern = false;
 
     public override void StartSpawning()
     {

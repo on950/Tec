@@ -16,12 +16,6 @@ public class ElectronicsSpawner : BaseAttackSpawner
     public float maxX = 5f;
     public float minY = -2.2f;
     public float maxY = 2.2f;
-
-    [Header("Estado")]
-    public bool canSpawn = false;
-    public bool blueSoulPattern = false;
-    public int phase = 1;
-
     private float timer;
 
     public override void StartSpawning()

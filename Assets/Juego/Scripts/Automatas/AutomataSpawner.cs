@@ -18,11 +18,6 @@ public class AutomataSpawner : BaseAttackSpawner
     public float maxY = 2.5f;
     public float margin = 0.3f;
 
-    [Header("Estado")]
-    public bool canSpawn = false;
-    public bool blueSoulPattern = false;
-    public int phase = 1;
-
     private float timer;
     private int stateCounter = 0;
 

@@ -12,6 +12,14 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        if (BattleRequest.hasReturnPosition)
+        {
+            transform.position = BattleRequest.returnPosition;
+            BattleRequest.hasReturnPosition = false;
+
+            Debug.Log("Player regresó a: " + transform.position);
+        }
     }
 
     // Update is called once per frame

@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleManager : MonoBehaviour
 {
@@ -343,8 +344,7 @@ public class BattleManager : MonoBehaviour
     {
         Debug.Log("Continuar después de la batalla.");
 
-        // Aquí después se conectará con el sistema de tu equipo:
-        // volver al pasillo, cargar siguiente escena o activar evento.
+        SceneManager.LoadScene("Y");
     }
 
     string GetRandomText(string[] texts)

@@ -19,11 +19,6 @@ public class GenericAttackSpawner : BaseAttackSpawner
     public float maxY = 2.5f;
     public float margin = 0.3f;
 
-    [Header("Estado")]
-    public bool canSpawn = false;
-    public bool blueSoulPattern = false;
-    public int phase = 1;
-
     [Header("Probabilidades Fase 3")]
     public int projectileWeight = 3;
     public int fallingWeight = 3;
