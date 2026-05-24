@@ -131,6 +131,18 @@ public class Player : MonoBehaviour
             case "SalidaY":
                 SceneManager.LoadScene(28);
                 break;
+            case "X":
+                SceneManager.LoadScene(30);
+                break;
+            case "SalidaXPB":
+                SceneManager.LoadScene(33);
+                break;
+            case "PAX":
+                SceneManager.LoadScene(31);
+                break;
+            case "PBX":
+                SceneManager.LoadScene(32);
+                break;
 
         }
     }

@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Ground
+  - R
+  - BibliotecaACR
+  - C
+  - SalidaCope
+  - InicioACR
+  - PBX
+  - SalidaXPB
+  - PAX
+  - X
+  - Audi
+  - SalidaQXW
+  - SalidaY
   layers:
   - Default
   - TransparentFX

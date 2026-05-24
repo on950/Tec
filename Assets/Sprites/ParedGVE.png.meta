@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a2c4e5c619d2dd46a40819d9a4f1413
+guid: 9d3a43d426617744daffec3ea38e4a64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 68788024006323536
-    second: Edificio P 1_0
+      213: -6693241100702476295
+    second: ParedGVE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Edificio P 1_0
+      name: ParedGVE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 153
-        height: 97
+        width: 67
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05da2b7e75264f000800000000000000
-      internalID: 68788024006323536
+      spriteID: 9f795946ea4dc13a0800000000000000
+      internalID: -6693241100702476295
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Edificio P 1_0: 68788024006323536
+      ParedGVE_0: -6693241100702476295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
