@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/2DPixelFantasyTilemapFree/Scenes/BaseScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Juego/BattleEscene.unity
-    guid: ef9bbaf3f4f39f34b8e97d6a37d7cc45
-  - enabled: 1
     path: Assets/Scenes/DEJI Inicio.unity
     guid: 47f7216c34061524c8042ba2d5ff771c
   - enabled: 1
@@ -98,6 +95,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Y.unity
     guid: 014e3f93e17111f4f834e9b34d7c53bf
+  - enabled: 1
+    path: Assets/Juego/BattleEscene.unity
+    guid: ef9bbaf3f4f39f34b8e97d6a37d7cc45
   - enabled: 1
     path: Assets/Scenes/Interiores/XPB.unity
     guid: a54b3b05b511dc6438d41713ca466f70
