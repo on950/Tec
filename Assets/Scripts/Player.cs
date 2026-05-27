@@ -16,9 +16,10 @@ public class Player : MonoBehaviour
         if (BattleRequest.hasReturnPosition)
         {
             transform.position = BattleRequest.returnPosition;
-            BattleRequest.hasReturnPosition = false;
 
-            Debug.Log("Player regresó a: " + transform.position);
+            Debug.Log("Regresando a: " + BattleRequest.returnPosition);
+
+            BattleRequest.hasReturnPosition = false;
         }
     }
 

@@ -500,11 +500,11 @@ public class BattleManager : MonoBehaviour
     {
         Debug.Log("Continuar después de la batalla.");
 
+        BattleRequest.hasReturnPosition = true;
+
         if (!string.IsNullOrEmpty(BattleRequest.returnScene))
         {
-            SceneManager.LoadScene(
-                BattleRequest.returnScene
-            );
+            SceneManager.LoadScene(BattleRequest.returnScene);
         }
     }
 

@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections;
-using System;
 using TMPro;
 using UnityEngine.SceneManagement;
+
 public class Dialogue : MonoBehaviour
 {
     private bool isPlayerInRange;
@@ -13,19 +13,18 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialogueSpace, dialogueEnter;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField, TextArea(4,6)] private string[] dialogueLines;
+    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
     [SerializeField] private int sceneIndex;
 
-    // Update is called once per frame
     void Update()
     {
-        if(isPlayerInRange&&Input.GetButtonDown("Jump"))
+        if (isPlayerInRange && Input.GetButtonDown("Jump"))
         {
             if (!didDialogueStart)
             {
                 StartDialogue();
             }
-            else if(dialogueText.text == dialogueLines[lineIndex])
+            else if (dialogueText.text == dialogueLines[lineIndex])
             {
                 NextDialogueLine();
             }
@@ -35,8 +34,19 @@ public class Dialogue : MonoBehaviour
                 dialogueText.text = dialogueLines[lineIndex];
             }
         }
-        if(isPlayerInRange&&Input.GetButtonDown("Fire1"))
+
+        if (isPlayerInRange && !didDialogueStart && Input.GetButtonDown("Fire1"))
         {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+            if (player != null)
+            {
+                BattleRequest.returnScene = SceneManager.GetActiveScene().name;
+                BattleRequest.returnPosition = player.transform.position;
+                BattleRequest.hasReturnPosition = true;
+            }
+
+            Time.timeScale = 1;
             SceneManager.LoadScene(sceneIndex);
         }
     }
@@ -47,15 +57,18 @@ public class Dialogue : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueEnter.SetActive(false);
         dialogueSpace.SetActive(false);
+
         lineIndex = 0;
         Time.timeScale = 0;
+
         StartCoroutine(ShowLine());
     }
 
     private void NextDialogueLine()
     {
         lineIndex++;
-        if(lineIndex<dialogueLines.Length)
+
+        if (lineIndex < dialogueLines.Length)
         {
             StartCoroutine(ShowLine());
         }
@@ -72,6 +85,7 @@ public class Dialogue : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogueText.text = string.Empty;
+
         foreach (char ch in dialogueLines[lineIndex])
         {
             dialogueText.text += ch;
@@ -86,9 +100,9 @@ public class Dialogue : MonoBehaviour
             isPlayerInRange = true;
             dialogueSpace.SetActive(true);
             dialogueEnter.SetActive(true);
-
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -96,7 +110,10 @@ public class Dialogue : MonoBehaviour
             isPlayerInRange = false;
             dialogueSpace.SetActive(false);
             dialogueEnter.SetActive(false);
+            dialoguePanel.SetActive(false);
 
+            didDialogueStart = false;
+            Time.timeScale = 1;
         }
     }
 }
