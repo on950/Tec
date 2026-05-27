@@ -163,4 +163,16 @@ public class ElectronicsSpawner : BaseAttackSpawner
             Quaternion.identity
         );
     }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+        CancelInvoke();
+    }
+
+    private void OnDestroy()
+    {
+        StopAllCoroutines();
+        CancelInvoke();
+    }
 }

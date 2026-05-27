@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\juego\\scripts\\battles\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\battles\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\juego\\scripts\\battles\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\scripts\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\scripts\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\automatas\\automataspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\juego\\scripts\\automatas\\automataspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\baseattackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,33 +102,116 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dialogue.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Dialogue.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Dialogue.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwBgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAiwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:48:21.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:42:26.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BattleRequest.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T21:12:16.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T22:08:01.454Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ElectronicsSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwLAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:52:27.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BuildingZone.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BuildingZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\BuildingZone.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BuildingZone.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\BuildingZone.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T01:12:51.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BattleZone.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T21:07:14.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T02:12:48.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericAttackSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:20:36.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TelecomSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:58:41.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:42:54.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -141,104 +224,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BattleManager.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:42:54.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BattleZone.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Title": "BattleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
+              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
+              "RelativeToolTip": "Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T21:07:14.91Z"
+              "WhenOpened": "2026-05-18T21:12:16.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BuildingZone.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BuildingZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\BuildingZone.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BuildingZone.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\BuildingZone.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T01:12:51.951Z"
+              "WhenOpened": "2026-05-27T01:48:21.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAiwH0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:42:26.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:08:01.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T02:12:48.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GenericAttackSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:20:36.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TelecomSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:58:41.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AutomataSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Automatas\\AutomataSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Automatas\\AutomataSpawner.cs",
@@ -247,18 +257,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T00:58:40.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ElectronicsSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
-              "RelativeToolTip": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:52:27.863Z"
             },
             {
               "$type": "Document",

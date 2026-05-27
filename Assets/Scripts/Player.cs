@@ -144,7 +144,18 @@ public class Player : MonoBehaviour
             case "PBX":
                 SceneManager.LoadScene(32);
                 break;
-
+            case "Q":
+                SceneManager.LoadScene(34);
+                break;
+            case "PAQ":
+                SceneManager.LoadScene(35);
+                break;
+            case "PBQE":
+                SceneManager.LoadScene(36);
+                break;
+            case "SalidaQPB":
+                SceneManager.LoadScene(37);
+                break;
         }
     }
 }
