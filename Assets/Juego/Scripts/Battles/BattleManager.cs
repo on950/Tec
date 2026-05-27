@@ -500,7 +500,12 @@ public class BattleManager : MonoBehaviour
     {
         Debug.Log("Continuar después de la batalla.");
 
-        SceneManager.LoadScene("Y");
+        if (!string.IsNullOrEmpty(BattleRequest.returnScene))
+        {
+            SceneManager.LoadScene(
+                BattleRequest.returnScene
+            );
+        }
     }
 
     string GetRandomText(string[] texts)
