@@ -3,38 +3,45 @@ using UnityEngine.SceneManagement;
 
 public class BuildingZone : MonoBehaviour
 {
-    public EnemyData buildingEnemy;
-
-    [Header("Punto donde aparecerá al volver")]
+    public string battleSceneName;
     public Transform exitPoint;
 
-    private bool alreadyEntered = false;
+    private bool playerInside = false;
+    private Transform player;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void Update()
     {
-        if (alreadyEntered) return;
+        if (!playerInside)
+            return;
 
-        if (other.CompareTag("Player"))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            alreadyEntered = true;
-
-            BattleRequest.selectedEnemy = buildingEnemy;
-
             if (exitPoint != null)
-            {
                 BattleRequest.returnPosition = exitPoint.position;
-            }
-            else
-            {
-                BattleRequest.returnPosition = other.transform.position;
-            }
+            else if (player != null)
+                BattleRequest.returnPosition = player.position;
 
             BattleRequest.hasReturnPosition = true;
 
-            Debug.Log("Entraste a: " + gameObject.name +
-                      " | Enemy: " + buildingEnemy.enemyName);
+            SceneManager.LoadScene(battleSceneName);
+        }
+    }
 
-            SceneManager.LoadScene(0);
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInside = true;
+            player = other.transform;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInside = false;
+            player = null;
         }
     }
 }

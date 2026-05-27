@@ -73,18 +73,9 @@ public class BattleManager : MonoBehaviour
         {
             dialogueText.gameObject.SetActive(true);
         }
-        if (BattleRequest.selectedEnemy != null)
-        {
-            enemyData = BattleRequest.selectedEnemy;
-            Debug.Log("BattleManager cargó enemigo: " + enemyData.enemyName);
-        }
-        else
-        {
-            Debug.LogWarning("No hay enemigo seleccionado. Usando EnemyData del Inspector.");
-        }
-
         if (enemyData != null)
         {
+            Debug.Log("BattleManager cargó enemigo: " + enemyData.enemyName);
             enemyName = enemyData.enemyName;
             enemyMaxHealth = enemyData.maxHealth;
             enemyHealth = enemyMaxHealth;
@@ -121,6 +112,11 @@ public class BattleManager : MonoBehaviour
             {
                 Debug.LogWarning("Este EnemyData no tiene AttackSpawner asignado.");
             }
+        }
+        else
+        {
+            Debug.LogError("No hay EnemyData asignado al BattleManager");
+            return;
         }
 
         if (enemyHPBar != null)
@@ -225,9 +221,6 @@ public class BattleManager : MonoBehaviour
 
     void StartPlayerTurn()
     {
-        mouseIsSelecting = false;
-        selectedButton = 0;
-        UpdateButtonSelection();
         if (currentState == BattleState.LOST)
             return;
 
@@ -236,6 +229,8 @@ public class BattleManager : MonoBehaviour
         dialogueText.text = "* ¿Qué harás?";
 
         buttonsPanel.SetActive(true);
+
+        mouseIsSelecting = false;
         selectedButton = 0;
         UpdateButtonSelection();
 
