@@ -172,7 +172,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6627981080164377410, guid: 3aa36e2779a2d6c4387bfc92a0957d26, type: 3}
+  m_Sprite: {fileID: -3256528289097498895, guid: 3aa36e2779a2d6c4387bfc92a0957d26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -415,4 +415,4 @@ MonoBehaviour:
 '
   - 'Dalet: Si no lo sabes....'
   - 'Dalet: NA'
-  sceneIndex: 29
+  sceneIndex: 53
