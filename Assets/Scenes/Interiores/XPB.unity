@@ -440,6 +440,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7797044903627547699, guid: 415ca3e1ebee0524f9cba3a15caba45b, type: 3}
     - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: sceneIndex
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 198300880}
@@ -1580,7 +1584,7 @@ PrefabInstance:
       objectReference: {fileID: 2149584651767571280, guid: 35750f05f54edbd42ba238016dcb5d1f, type: 3}
     - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
       propertyPath: sceneIndex
-      value: 52
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
       propertyPath: dialogueText
@@ -3479,6 +3483,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7557575840080555521, guid: be0ec51cc60937043b1307c6d0bed997, type: 3}
     - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: sceneIndex
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 198300880}
@@ -4346,6 +4354,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: sceneIndex
+      value: 29
+      objectReference: {fileID: 0}
     - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
       propertyPath: dialogueText
       value: 

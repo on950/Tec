@@ -133,28 +133,70 @@ public class Player : MonoBehaviour
                 SceneManager.LoadScene(28);
                 break;
             case "X":
-                SceneManager.LoadScene(30);
+                SceneManager.LoadScene(29);
                 break;
             case "SalidaXPB":
-                SceneManager.LoadScene(33);
-                break;
-            case "PAX":
-                SceneManager.LoadScene(31);
-                break;
-            case "PBX":
                 SceneManager.LoadScene(32);
                 break;
+            case "PAX":
+                SceneManager.LoadScene(30);
+                break;
+            case "PBX":
+                SceneManager.LoadScene(31);
+                break;
             case "Q":
-                SceneManager.LoadScene(34);
+                SceneManager.LoadScene(57);
                 break;
             case "PAQ":
-                SceneManager.LoadScene(35);
+                SceneManager.LoadScene(56);
                 break;
             case "PBQE":
-                SceneManager.LoadScene(36);
+                SceneManager.LoadScene(58);
                 break;
             case "SalidaQPB":
-                SceneManager.LoadScene(37);
+                SceneManager.LoadScene(60);
+                break;
+            case "SalidaSal":
+                SceneManager.LoadScene(61);
+                break;
+            case "C":
+                SceneManager.LoadScene(59);
+                break;
+            case "D":
+                SceneManager.LoadScene(62);
+                break;
+            case "SallidaSalD":
+                SceneManager.LoadScene(63);
+                break;
+            case "Audio":
+                SceneManager.LoadScene(64);
+                break;
+            case "SalidaAudio":
+                SceneManager.LoadScene(65);
+                break;
+            case "J":
+                SceneManager.LoadScene(66); 
+                break;
+            case "SalidaSalJ":
+                SceneManager.LoadScene(67);
+                break;
+            case "F":
+                SceneManager.LoadScene(68);
+                break; 
+            case "SalidaSalE":
+                SceneManager.LoadScene(69);
+                break;
+            case "K":
+                SceneManager.LoadScene(70);
+                break;
+            case "SalidaSalK":
+                SceneManager.LoadScene(71);
+                break;
+            case "G":
+                SceneManager.LoadScene(72);
+                break;
+            case "SalidaSalG":
+                SceneManager.LoadScene(73);
                 break;
         }
     }

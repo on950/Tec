@@ -176,6 +176,60 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Y1.unity
     guid: cc720cdc73229b14790cdc143ee64300
+  - enabled: 1
+    path: Assets/Scenes/Interiores/QA.unity
+    guid: 69beb9dfe75180e4da1fbf68b0c59982
+  - enabled: 1
+    path: Assets/Scenes/Interiores/QB.unity
+    guid: 830d941cdfa656140bfa760d67106ab0
+  - enabled: 1
+    path: Assets/Scenes/Interiores/QBE.unity
+    guid: fd05969ba1c4e4547bcfe6508e839b1d
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones C.unity
+    guid: bc145391f48b2224dbeb6ce29d2b8835
+  - enabled: 1
+    path: Assets/Scenes/OPQ QEXIT.unity
+    guid: cc8f6338f8f8ea742b07c8dde211642b
+  - enabled: 1
+    path: Assets/Scenes/ACR EXITC.unity
+    guid: cb9b7edc2e4e51a489f754a33f94161d
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones D.unity
+    guid: 74f2fdbbc49d30c43b3bede7beca6679
+  - enabled: 1
+    path: Assets/Scenes/DEJI DEXIT.unity
+    guid: 9dd93edf5d3987f4b9d4aaacebb3a526
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones Audio.unity
+    guid: 12e125584b7ae8d40b71a28f4e42e3f7
+  - enabled: 1
+    path: Assets/Scenes/DEJI AudioEXIT.unity
+    guid: f0283918de9f22144bacae59ff1726a8
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones J.unity
+    guid: e70b40a4d4239274d929f8852c19d9fa
+  - enabled: 1
+    path: Assets/Scenes/DEJI JEXIT.unity
+    guid: f0485b42dd2ebdb4ea03be9e2b5a1cd9
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones F.unity
+    guid: edfc1e702594007468f6a3c4e0a0ffc3
+  - enabled: 1
+    path: Assets/Scenes/FKGVH FEXIT.unity
+    guid: 0d3da9f3af792ba459e114ca0941a5a0
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones K.unity
+    guid: da68aa8b7b0eaf84d8ebd491a5046ee2
+  - enabled: 1
+    path: Assets/Scenes/FKGVH KEXIT.unity
+    guid: f9069c69597cfb74f9310c5b0edb25d2
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones G.unity
+    guid: 5ff3940f0d60dd8418eaeb127c54ca16
+  - enabled: 1
+    path: Assets/Scenes/FKGVH GEXIT.unity
+    guid: 56d553a90262d2340a96ce7a087217a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
