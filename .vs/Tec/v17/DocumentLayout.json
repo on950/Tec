@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\scripts\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|c:\\users\\emili\\onedrive\\documentos\\escuela\\plataforma2d\\tec\\assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB372FF-4538-DDEB-425B-F6492E084108}|Assembly-CSharp.csproj|solutionrelative:assets\\juego\\scripts\\electronica\\electronicsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -107,6 +111,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MenuInicio.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\MenuInicio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuInicio.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\MenuInicio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuInicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:07:03.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\GameManager.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerMovement.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ElectronicsSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
@@ -151,12 +168,11 @@
               "RelativeToolTip": "Assets\\Juego\\Scripts\\Electronica\\ElectronicsSpawner.cs",
               "ViewState": "AgIAAKsAAAAAAAAAAEBdwLAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:52:27.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:52:27.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BuildingZone.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BuildingZone.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\BuildingZone.cs",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BattleZone.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleZone.cs",
@@ -180,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Player\\PlayerHealth.cs",
@@ -192,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GenericAttackSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Generic\\GenericAttackSpawner.cs",
@@ -204,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TelecomSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Redes\\TelecomSpawner.cs",
@@ -216,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BattleManager.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleManager.cs",
@@ -228,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -240,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BattleRequest.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\BattleRequest.cs",
@@ -252,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Scripts\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue.cs",
@@ -264,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AutomataSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Automatas\\AutomataSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Automatas\\AutomataSpawner.cs",
@@ -276,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BaseAttackSpawner.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\BaseAttackSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\BaseAttackSpawner.cs",
@@ -288,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GenericFallingAttack.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericFallingAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Generic\\GenericFallingAttack.cs",
@@ -300,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "GenericProjectile.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Generic\\GenericProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Generic\\GenericProjectile.cs",
@@ -312,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TestBattleSelector.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Battles\\TestBattleSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Battles\\TestBattleSelector.cs",
@@ -324,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "StateNode.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Automatas\\StateNode.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Automatas\\StateNode.cs",
@@ -336,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TrapState.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Automatas\\TrapState.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Automatas\\TrapState.cs",
@@ -348,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TransitionArrow.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Automatas\\TransitionArrow.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Automatas\\TransitionArrow.cs",
@@ -360,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "VoltageRay.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\Electronica\\VoltageRay.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\Electronica\\VoltageRay.cs",
@@ -372,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EnemyData.cs",
               "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Documentos\\Escuela\\Plataforma2D\\Tec\\Assets\\Juego\\Scripts\\EnemyData.cs",
               "RelativeDocumentMoniker": "Assets\\Juego\\Scripts\\EnemyData.cs",
