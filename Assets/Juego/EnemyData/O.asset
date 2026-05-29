@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.282353, g: 0.2392157, b: 0.5450981, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - "Intentas seguir la l\xF3gica del algoritmo."
+  - Revisas cuidadosamente el flujo del programa.
+  - "Buscas errores antes de ejecutar el c\xF3digo."
+  enemyTurnDialogues:
+  - "El profesor escribe nuevas l\xEDneas de c\xF3digo r\xE1pidamente."
+  - Un error inesperado aparece en la consola.
+  - "El profesor compila el proyecto una vez m\xE1s."
+  itemDialogue: "Usaste una gu\xEDa de sintaxis para resolver tus dudas."
+  phase2Dialogue: Los errores comienzan a acumularse en el programa.
+  phase3Dialogue: "\xA1El proyecto ha entrado en fase cr\xEDtica de depuraci\xF3n!"

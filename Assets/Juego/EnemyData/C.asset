@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0, g: 0.3921569, b: 0, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - "El enemigo parece observarte con atenci\xF3n."
+  - "Intentas iniciar una conversaci\xF3n, pero no obtienes respuesta."
+  - Analizas cuidadosamente los movimientos del enemigo.
+  enemyTurnDialogues:
+  - El enemigo se prepara para atacar.
+  - "Sientes una extra\xF1a presi\xF3n en el ambiente."
+  - El enemigo espera pacientemente tu siguiente movimiento.
+  itemDialogue: Usaste un recurso de apoyo para continuar la batalla.
+  phase2Dialogue: "El enemigo comienza a tomarse el combate m\xE1s en serio."
+  phase3Dialogue: "El enemigo est\xE1 dando todo lo que tiene."

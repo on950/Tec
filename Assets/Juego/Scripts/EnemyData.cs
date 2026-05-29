@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "EnemyData", menuName = "Battle/Enemy")]
 public class EnemyData : ScriptableObject
@@ -29,4 +30,24 @@ public class EnemyData : ScriptableObject
 
     [TextArea]
     public string[] enemyTurnDialogues;
+
+    [TextArea]
+    public string itemDialogue;
+
+    [TextArea]
+    public string phase2Dialogue;
+
+    [TextArea]
+    public string phase3Dialogue;
+
+    [Header("Colores Inventario")]
+    public Image inventoryPanelImage;
+    public Image batteryButtonImage;
+    public Image formulaButtonImage;
+    public Image shieldButtonImage;
+
+    public Outline inventoryPanelOutline;
+    public Outline batteryButtonOutline;
+    public Outline formulaButtonOutline;
+    public Outline shieldButtonOutline;
 }

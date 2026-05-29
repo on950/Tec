@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.9333334, g: 0.8666667, b: 0.509804, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Observas cuidadosamente los reactivos sobre la mesa.
+  - Intentas identificar los elementos presentes en la mezcla.
+  - "Analizas la reacci\xF3n para encontrar una soluci\xF3n segura."
+  enemyTurnDialogues:
+  - El profesor mezcla nuevas sustancias en el laboratorio.
+  - "Una extra\xF1a reacci\xF3n comienza a desarrollarse."
+  - El profesor ajusta las condiciones del experimento.
+  itemDialogue: "Usaste un manual de qu\xEDmica para consultar la reacci\xF3n."
+  phase2Dialogue: "Las reacciones qu\xEDmicas comienzan a acelerarse."
+  phase3Dialogue: "\xA1La reacci\xF3n alcanza un estado cr\xEDtico e inestable!"

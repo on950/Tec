@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0, g: 0.3921569, b: 0, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Intentas mantener la calma.
+  - Observas atentamente al enemigo.
+  - "Tratas de encontrar una soluci\xF3n pac\xEDfica."
+  enemyTurnDialogues:
+  - "El enemigo espera tu siguiente acci\xF3n."
+  - "Algo extra\xF1o se siente en el ambiente."
+  - "El enemigo parece m\xE1s decidido que antes."
+  itemDialogue: Te sientes un poco mejor.
+  phase2Dialogue: "La situaci\xF3n comienza a complicarse."
+  phase3Dialogue: "\xA1Todo se decidir\xE1 en este momento!"

@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.9333334, g: 0.8666667, b: 0.509804, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - "Intentas balancear la ecuaci\xF3n qu\xEDmica."
+  - "Revisas la tabla peri\xF3dica en busca de una pista."
+  - "Compruebas si la reacci\xF3n es exot\xE9rmica o endot\xE9rmica."
+  enemyTurnDialogues:
+  - "El profesor a\xF1ade un reactivo desconocido."
+  - El laboratorio se llena de humo de colores.
+  - "Las mol\xE9culas parecen moverse cada vez m\xE1s r\xE1pido."
+  itemDialogue: "Usaste una tabla peri\xF3dica de emergencia."
+  phase2Dialogue: "Los enlaces qu\xEDmicos comienzan a romperse y formarse r\xE1pidamente."
+  phase3Dialogue: "\xA1La reacci\xF3n est\xE1 a punto de descontrolarse!"

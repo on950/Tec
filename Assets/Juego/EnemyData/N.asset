@@ -21,5 +21,15 @@ MonoBehaviour:
   secondaryColor: {r: 0.1803922, g: 0.5450981, b: 0.3411765, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - "Intentas simplificar la expresi\xF3n antes de continuar."
+  - "Analizas cuidadosamente el comportamiento de la funci\xF3n."
+  - Buscas una estrategia para resolver la integral.
+  enemyTurnDialogues:
+  - "El profesor llena el pizarr\xF3n con demostraciones complejas."
+  - Las ecuaciones comienzan a extenderse sin fin.
+  - El profesor plantea un problema de nivel avanzado.
+  itemDialogue: Usaste una tabla de integrales para orientarte mejor.
+  phase2Dialogue: "Las derivadas e integrales se vuelven cada vez m\xE1s dif\xEDciles
+    de resolver."
+  phase3Dialogue: "\xA1Has llegado al l\xEDmite de la complejidad matem\xE1tica!"

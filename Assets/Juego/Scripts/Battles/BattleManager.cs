@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -6,16 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class BattleManager : MonoBehaviour
 {
-    int actCount = 0;
-
-    int selectedButton = 0;
-    float inputCooldown = 0.25f;
-    float inputTimer = 0f;
-
-    private bool usingController;
-    private bool mouseIsSelecting = false;
-
-    bool mercyAvailable = false;
     public enum BattleState
     {
         PLAYERTURN,
@@ -25,123 +15,102 @@ public class BattleManager : MonoBehaviour
         LOST
     }
 
+    [Header("Estado de batalla")]
     public BattleState currentState;
 
+    private int selectedButton = 0;
+    private int actCount = 0;
+    private bool mercyAvailable = false;
+    private int currentPhase = 1;
+
+    [Header("Colores Inventario")]
+    public Image inventoryPanelImage;
+    public Image batteryButtonImage;
+    public Image formulaButtonImage;
+    public Image shieldButtonImage;
+
+    public Outline inventoryPanelOutline;
+    public Outline batteryButtonOutline;
+    public Outline formulaButtonOutline;
+    public Outline shieldButtonOutline;
+
+    [Header("Inventario")]
+    public int batteries = 3;
+    public int formulaBooks = 2;
+    public int shields = 1;
+
+    [SerializeField] private int healAmount = 2;
+
+    private int damageBonus = 0;
+    private int damageBonusTurns = 0;
+
+    public bool shieldActive = false;
+    public int shieldTurns = 0;
+
+    [Header("Enemigo")]
+    public EnemyData enemyData;
     public int enemyMaxHealth = 20;
     public int enemyHealth = 20;
 
-    private int currentPhase = 1;
-
+    [Header("UI")]
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI enemyNameText;
-
     public Slider enemyHPBar;
-
     public GameObject buttonsPanel;
-
-    private BaseAttackSpawner attackSpawner;
-    public PlayerMovement playerMovement;
-
     public GameObject continueButton;
     public GameObject retryButton;
 
-    public EnemyData enemyData;
+    [Header("Inventario UI")]
+    public GameObject inventoryPanel;
+    public Button batteryButton;
+    public Button formulaButton;
+    public Button shieldButton;
 
-    public Transform spawnerPoint;
+    public TextMeshProUGUI batteryButtonText;
+    public TextMeshProUGUI formulaButtonText;
+    public TextMeshProUGUI shieldButtonText;
 
-    public string enemyName = "Profesor de Telecomunicaciones";
-
-    [TextArea]
-    public string[] actDialogues;
-
-    [TextArea]
-    public string[] enemyTurnDialogues;
-
+    [Header("ImÃ¡genes")]
     public Image dialogueBoxImage;
     public Image hpBarFill;
     public Image enemyHPBarFill;
     public Image enemyImage;
 
+    [Header("Texto botones")]
     public TextMeshProUGUI fightText;
     public TextMeshProUGUI actText;
     public TextMeshProUGUI itemText;
     public TextMeshProUGUI mercyText;
 
+    [Header("Ataques")]
+    private BaseAttackSpawner attackSpawner;
+    public PlayerMovement playerMovement;
+    public Transform spawnerPoint;
+
     void Start()
     {
-        if (dialogueText != null)
-        {
-            dialogueText.gameObject.SetActive(true);
-        }
-        if (enemyData != null)
-        {
-            Debug.Log("BattleManager cargó enemigo: " + enemyData.enemyName);
-            enemyName = enemyData.enemyName;
-            enemyMaxHealth = enemyData.maxHealth;
-            enemyHealth = enemyMaxHealth;
-
-            dialogueText.text = enemyData.introText;
-
-            if (enemyImage != null && enemyData.enemySprite != null)
-            {
-                enemyImage.sprite = enemyData.enemySprite;
-                enemyImage.SetNativeSize();
-            }
-
-            if (enemyNameText != null)
-            {
-                enemyNameText.text = enemyName;
-            }
-
-            if (enemyData.attackSpawnerPrefabs != null &&
-                enemyData.attackSpawnerPrefabs.Length > 0 &&
-                enemyData.attackSpawnerPrefabs[0] != null)
-            {
-                GameObject spawnerObject = Instantiate(
-                    enemyData.attackSpawnerPrefabs[0],
-                    spawnerPoint.position,
-                    Quaternion.identity
-                );
-
-                attackSpawner =
-                    spawnerObject.GetComponent<BaseAttackSpawner>();
-
-                attackSpawner.SetPhase(1);
-            }
-            else
-            {
-                Debug.LogWarning("Este EnemyData no tiene AttackSpawner asignado.");
-            }
-        }
-        else
+        if (enemyData == null)
         {
             Debug.LogError("No hay EnemyData asignado al BattleManager");
             return;
         }
 
-        if (enemyHPBar != null)
-        {
-            enemyHPBar.maxValue = enemyMaxHealth;
-            enemyHPBar.value = enemyHealth;
-        }
-
+        LoadEnemyData();
         ApplyEnemyColors();
+        UpdateItemText();
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(false);
 
-        currentPhase = 1;
-
+        UpdateInventoryTexts();
         StartPlayerTurn();
     }
 
     void Update()
     {
-        usingController = Input.GetJoystickNames().Length > 0 &&
-                  !string.IsNullOrEmpty(Input.GetJoystickNames()[0]);
         if (currentState == BattleState.WON)
         {
             if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
-            {
                 ContinueAfterBattle();
-            }
 
             return;
         }
@@ -149,39 +118,46 @@ public class BattleManager : MonoBehaviour
         if (currentState == BattleState.LOST)
         {
             if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
-            {
-                GameManager.instance.RetryBattle();
-            }
+                RetryBattle();
 
             return;
         }
+
+        if (currentState == BattleState.BUSY && dialogueText.text.Contains("INVENTARIO"))
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+                UseBattery();
+
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+                UseFormulaBook();
+
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+                UseShield();
+
+            return;
+        }
+
         if (currentState != BattleState.PLAYERTURN)
             return;
 
         if (Input.GetKeyDown(KeyCode.JoystickButton4))
         {
-            mouseIsSelecting = false;
-
             selectedButton--;
+
             if (selectedButton < 0)
                 selectedButton = 3;
 
             UpdateButtonSelection();
-
-            Debug.Log("Seleccionado: " + selectedButton);
         }
 
         if (Input.GetKeyDown(KeyCode.JoystickButton5))
         {
-            mouseIsSelecting = false;
-
             selectedButton++;
+
             if (selectedButton > 3)
                 selectedButton = 0;
 
             UpdateButtonSelection();
-
-            Debug.Log("Seleccionado: " + selectedButton);
         }
 
         if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.JoystickButton0))
@@ -190,11 +166,60 @@ public class BattleManager : MonoBehaviour
         }
     }
 
-    public void RetryBattle()
+    void LoadEnemyData()
     {
-        Debug.Log("Reintentando batalla.");
+        enemyMaxHealth = enemyData.maxHealth;
+        enemyHealth = enemyMaxHealth;
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        dialogueText.text = enemyData.introText;
+
+        if (enemyNameText != null)
+            enemyNameText.text = enemyData.enemyName;
+
+        if (enemyHPBar != null)
+        {
+            enemyHPBar.maxValue = enemyMaxHealth;
+            enemyHPBar.value = enemyHealth;
+        }
+
+        if (enemyImage != null && enemyData.enemySprite != null)
+        {
+            enemyImage.sprite = enemyData.enemySprite;
+            enemyImage.SetNativeSize();
+        }
+
+        CreateAttackSpawner();
+
+        currentPhase = 1;
+        actCount = 0;
+        mercyAvailable = false;
+
+        damageBonus = 0;
+        damageBonusTurns = 0;
+        shieldActive = false;
+        shieldTurns = 0;
+    }
+
+    void CreateAttackSpawner()
+    {
+        if (enemyData.attackSpawnerPrefabs == null ||
+            enemyData.attackSpawnerPrefabs.Length == 0 ||
+            enemyData.attackSpawnerPrefabs[0] == null)
+        {
+            Debug.LogWarning("Este EnemyData no tiene AttackSpawner asignado.");
+            return;
+        }
+
+        GameObject spawnerObject = Instantiate(
+            enemyData.attackSpawnerPrefabs[0],
+            spawnerPoint.position,
+            Quaternion.identity
+        );
+
+        attackSpawner = spawnerObject.GetComponent<BaseAttackSpawner>();
+
+        if (attackSpawner != null)
+            attackSpawner.SetPhase(1);
     }
 
     void ExecuteSelectedButton()
@@ -226,11 +251,9 @@ public class BattleManager : MonoBehaviour
 
         currentState = BattleState.PLAYERTURN;
 
-        dialogueText.text = "* ¿Qué harás?";
-
+        dialogueText.text = "* Â¿QuÃ© harÃ¡s?";
         buttonsPanel.SetActive(true);
 
-        mouseIsSelecting = false;
         selectedButton = 0;
         UpdateButtonSelection();
 
@@ -240,42 +263,14 @@ public class BattleManager : MonoBehaviour
             attackSpawner.SetBlueSoulPattern(false);
         }
 
-        playerMovement.ActivateRedSoul();
-    }
-
-    public void ForceLoseBattle()
-    {
-        currentState = BattleState.LOST;
-
-        CancelInvoke();
-        StopAllCoroutines();
-
-        if (attackSpawner != null)
-        {
-            attackSpawner.StopSpawning();
-            attackSpawner.SetBlueSoulPattern(false);
-        }
-
-        if (buttonsPanel != null)
-            buttonsPanel.SetActive(false);
-
-        if (continueButton != null)
-            continueButton.SetActive(false);
-
-        // NUEVO
-        if (dialogueText != null)
-            dialogueText.gameObject.SetActive(false);
-
-        Debug.Log("BattleManager cambió a LOST");
+        if (playerMovement != null)
+            playerMovement.ActivateRedSoul();
     }
 
     void StartEnemyTurn()
     {
         currentState = BattleState.ENEMYTURN;
-
         buttonsPanel.SetActive(false);
-
-        string enemyText = GetRandomText(enemyTurnDialogues);
 
         int randomMode = Random.Range(0, 2);
 
@@ -283,27 +278,29 @@ public class BattleManager : MonoBehaviour
         {
             playerMovement.ActivateRedSoul();
 
-            attackSpawner.SetBlueSoulPattern(false);
-
-            dialogueText.text = "* El profesor transmite una señal.";
+            if (attackSpawner != null)
+                attackSpawner.SetBlueSoulPattern(false);
         }
         else
         {
             playerMovement.ActivateBlueSoul();
 
-            attackSpawner.SetBlueSoulPattern(true);
-
-            dialogueText.text = "* La señal altera la gravedad.";
+            if (attackSpawner != null)
+                attackSpawner.SetBlueSoulPattern(true);
         }
 
-        attackSpawner.StartSpawning();
+        dialogueText.text = "* " + GetRandomText(enemyData.enemyTurnDialogues);
+
+        if (attackSpawner != null)
+            attackSpawner.StartSpawning();
 
         Invoke(nameof(EndEnemyTurn), 5f);
     }
 
     void EndEnemyTurn()
     {
-        attackSpawner.StopSpawning();
+        if (attackSpawner != null)
+            attackSpawner.StopSpawning();
 
         StartCoroutine(WaitForAttacks());
     }
@@ -311,13 +308,15 @@ public class BattleManager : MonoBehaviour
     IEnumerator WaitForAttacks()
     {
         while (GameObject.FindGameObjectsWithTag("Enemy").Length > 0)
-        {
             yield return null;
-        }
 
-        attackSpawner.SetBlueSoulPattern(false);
+        if (attackSpawner != null)
+            attackSpawner.SetBlueSoulPattern(false);
 
-        playerMovement.ActivateRedSoul();
+        if (playerMovement != null)
+            playerMovement.ActivateRedSoul();
+
+        ReduceShieldTurn();
 
         StartPlayerTurn();
     }
@@ -330,20 +329,21 @@ public class BattleManager : MonoBehaviour
         currentState = BattleState.BUSY;
         buttonsPanel.SetActive(false);
 
-        int damage = Random.Range(3, 8);
+        int damage = Random.Range(3, 8) + damageBonus;
 
         enemyHealth -= damage;
 
         if (enemyHealth < 0)
-        {
             enemyHealth = 0;
-        }
 
-        enemyHPBar.value = enemyHealth;
+        if (enemyHPBar != null)
+            enemyHPBar.value = enemyHealth;
 
         CheckPhase();
 
-        dialogueText.text = "Hiciste " + damage + " de daño.";
+        dialogueText.text = "* Hiciste " + damage + " de daÃ±o.";
+
+        ReduceDamageBonusTurn();
 
         if (enemyHealth <= 0)
         {
@@ -360,23 +360,14 @@ public class BattleManager : MonoBehaviour
             return;
 
         currentState = BattleState.BUSY;
-
         buttonsPanel.SetActive(false);
 
         actCount++;
 
-        if (actCount >= 3)
-        {
-            mercyAvailable = true;
+        dialogueText.text = "* " + GetRandomText(enemyData.actDialogues);
 
-            dialogueText.text =
-            "* El profesor parece más tranquilo.";
-        }
-        else
-        {
-            dialogueText.text =
-            "* Analizas la frecuencia.";
-        }
+        if (actCount >= 3)
+            mercyAvailable = true;
 
         Invoke(nameof(StartEnemyTurn), 2f);
     }
@@ -387,13 +378,135 @@ public class BattleManager : MonoBehaviour
             return;
 
         currentState = BattleState.BUSY;
+
         buttonsPanel.SetActive(false);
 
-        GameManager.instance.Heal(2);
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(true);
 
-        dialogueText.text = "* Usaste una batería de respaldo.";
+        dialogueText.text = "* Elige un objeto.";
+    }
+
+    public void UseBattery()
+    {
+        if (batteries <= 0)
+        {
+            dialogueText.text = "* Ya no tienes baterÃ­as.";
+            CloseInventoryAndStartEnemyTurn();
+            return;
+        }
+
+        batteries--;
+
+        GameManager.instance.Heal(healAmount);
+
+        dialogueText.text =
+            "* Usaste una baterÃ­a.\n" +
+            "* BaterÃ­as restantes: " + batteries + ".";
+
+        UpdateInventoryTexts();
+        CloseInventoryAndStartEnemyTurn();
+    }
+
+    public void UseFormulaBook()
+    {
+        if (formulaBooks <= 0)
+        {
+            dialogueText.text = "* Ya no tienes libros de fÃ³rmulas.";
+            CloseInventoryAndStartEnemyTurn();
+            return;
+        }
+
+        formulaBooks--;
+
+        damageBonus = 2;
+        damageBonusTurns = 3;
+
+        dialogueText.text =
+            "* Usaste un libro de fÃ³rmulas.\n" +
+            "* Tu daÃ±o aumentarÃ¡ durante 3 ataques.";
+
+        UpdateInventoryTexts();
+        CloseInventoryAndStartEnemyTurn();
+    }
+
+    public void UseShield()
+    {
+        if (shields <= 0)
+        {
+            dialogueText.text = "* Ya no tienes escudos.";
+            CloseInventoryAndStartEnemyTurn();
+            return;
+        }
+
+        shields--;
+
+        shieldActive = true;
+        shieldTurns = 2;
+
+        dialogueText.text =
+            "* Usaste un escudo.\n" +
+            "* RecibirÃ¡s menos daÃ±o durante 2 turnos.";
+
+        UpdateInventoryTexts();
+        CloseInventoryAndStartEnemyTurn();
+    }
+
+    void CloseInventoryAndStartEnemyTurn()
+    {
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(false);
 
         Invoke(nameof(StartEnemyTurn), 2f);
+    }
+
+    void UpdateInventoryTexts()
+    {
+        if (batteryButtonText != null)
+            batteryButtonText.text = "BATERÃA x" + batteries;
+
+        if (formulaButtonText != null)
+            formulaButtonText.text = "LIBRO x" + formulaBooks;
+
+        if (shieldButtonText != null)
+            shieldButtonText.text = "ESCUDO x" + shields;
+    }
+
+    void ReduceDamageBonusTurn()
+    {
+        if (damageBonusTurns <= 0)
+            return;
+
+        damageBonusTurns--;
+
+        if (damageBonusTurns <= 0)
+        {
+            damageBonus = 0;
+        }
+    }
+
+    void ReduceShieldTurn()
+    {
+        if (!shieldActive)
+            return;
+
+        shieldTurns--;
+
+        if (shieldTurns <= 0)
+        {
+            shieldActive = false;
+            shieldTurns = 0;
+        }
+    }
+
+    public int ApplyShieldReduction(int damage)
+    {
+        if (shieldActive)
+        {
+            damage = Mathf.CeilToInt(damage * 0.5f);
+        }
+
+        return damage;
     }
 
     public void Mercy()
@@ -402,21 +515,16 @@ public class BattleManager : MonoBehaviour
             return;
 
         currentState = BattleState.BUSY;
-
         buttonsPanel.SetActive(false);
 
         if (mercyAvailable)
         {
-            dialogueText.text =
-            "* Perdonaste al profesor.";
-
+            dialogueText.text = "* Perdonaste al profesor.";
             WinBattle();
         }
         else
         {
-            dialogueText.text =
-            "* Aún no puedes perdonarlo.";
-
+            dialogueText.text = "* AÃºn no puedes perdonarlo.";
             Invoke(nameof(StartEnemyTurn), 2f);
         }
     }
@@ -427,23 +535,25 @@ public class BattleManager : MonoBehaviour
         {
             currentPhase = 3;
 
-            dialogueText.text = "* La señal entra en modo crítico.";
+            dialogueText.text = "* " + enemyData.phase3Dialogue;
 
-            attackSpawner.SetDifficulty(0.4f, 12f);
-            attackSpawner.SetPhase(3);
-
-            Debug.Log("FASE 3 ACTIVADA");
+            if (attackSpawner != null)
+            {
+                attackSpawner.SetDifficulty(0.4f, 12f);
+                attackSpawner.SetPhase(3);
+            }
         }
         else if (enemyHealth <= 13 && currentPhase != 2)
         {
             currentPhase = 2;
 
-            dialogueText.text = "* La interferencia aumenta.";
+            dialogueText.text = "* " + enemyData.phase2Dialogue;
 
-            attackSpawner.SetDifficulty(0.7f, 10f);
-            attackSpawner.SetPhase(2);
-
-            Debug.Log("FASE 2 ACTIVADA");
+            if (attackSpawner != null)
+            {
+                attackSpawner.SetDifficulty(0.7f, 10f);
+                attackSpawner.SetPhase(2);
+            }
         }
     }
 
@@ -453,26 +563,27 @@ public class BattleManager : MonoBehaviour
 
         dialogueText.text = "* GANASTE.";
 
-        attackSpawner.StopSpawning();
-        attackSpawner.SetBlueSoulPattern(false);
+        if (attackSpawner != null)
+        {
+            attackSpawner.StopSpawning();
+            attackSpawner.SetBlueSoulPattern(false);
+        }
 
-        playerMovement.ActivateRedSoul();
+        if (playerMovement != null)
+            playerMovement.ActivateRedSoul();
 
         buttonsPanel.SetActive(false);
 
         if (continueButton != null)
-        {
             continueButton.SetActive(true);
-        }
-
-        Debug.Log("VICTORIA");
     }
 
-    void LoseBattle()
+    public void ForceLoseBattle()
     {
         currentState = BattleState.LOST;
 
-        dialogueText.text = "* Has sido derrotado.";
+        CancelInvoke();
+        StopAllCoroutines();
 
         if (attackSpawner != null)
         {
@@ -480,51 +591,47 @@ public class BattleManager : MonoBehaviour
             attackSpawner.SetBlueSoulPattern(false);
         }
 
-        playerMovement.ActivateRedSoul();
-
-        // Desactivar menú de acciones
         buttonsPanel.SetActive(false);
 
-        // Ocultar continuar por seguridad
         if (continueButton != null)
             continueButton.SetActive(false);
 
-        // Mostrar retry
         if (retryButton != null)
             retryButton.SetActive(true);
 
-        Debug.Log("DERROTA");
+        dialogueText.text = "* Has sido derrotado.";
+    }
+
+    public void RetryBattle()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ContinueAfterBattle()
     {
-        Debug.Log("Continuar después de la batalla.");
-
         BattleRequest.hasReturnPosition = true;
 
         if (!string.IsNullOrEmpty(BattleRequest.returnScene))
-        {
             SceneManager.LoadScene(BattleRequest.returnScene);
-        }
     }
 
     string GetRandomText(string[] texts)
     {
         if (texts == null || texts.Length == 0)
-        {
-            return "";
-        }
+            return "No hay diÃ¡logo asignado.";
 
         int index = Random.Range(0, texts.Length);
-
         return texts[index];
+    }
+
+    void UpdateItemText()
+    {
+        if (itemText != null)
+            itemText.text = "ITEM";
     }
 
     void ApplyEnemyColors()
     {
-        if (enemyData == null)
-            return;
-
         if (enemyNameText != null)
             enemyNameText.color = enemyData.primaryColor;
 
@@ -537,31 +644,47 @@ public class BattleManager : MonoBehaviour
         if (enemyHPBarFill != null)
             enemyHPBarFill.color = enemyData.primaryColor;
 
-        if (fightText != null)
-            fightText.color = enemyData.primaryColor;
+        // Colores del inventario
+        if (inventoryPanelImage != null)
+            inventoryPanelImage.color = Color.black;
 
-        if (actText != null)
-            actText.color = enemyData.primaryColor;
+        if (inventoryPanelOutline != null)
+            inventoryPanelOutline.effectColor = enemyData.primaryColor;
 
-        if (itemText != null)
-            itemText.color = enemyData.primaryColor;
+        if (batteryButtonImage != null)
+            batteryButtonImage.color = Color.black;
 
-        if (mercyText != null)
-            mercyText.color = enemyData.primaryColor;
+        if (formulaButtonImage != null)
+            formulaButtonImage.color = Color.black;
+
+        if (shieldButtonImage != null)
+            shieldButtonImage.color = Color.black;
+
+        if (batteryButtonOutline != null)
+            batteryButtonOutline.effectColor = enemyData.primaryColor;
+
+        if (formulaButtonOutline != null)
+            formulaButtonOutline.effectColor = enemyData.primaryColor;
+
+        if (shieldButtonOutline != null)
+            shieldButtonOutline.effectColor = enemyData.primaryColor;
+
+        if (batteryButtonText != null)
+            batteryButtonText.color = enemyData.primaryColor;
+
+        if (formulaButtonText != null)
+            formulaButtonText.color = enemyData.primaryColor;
+
+        if (shieldButtonText != null)
+            shieldButtonText.color = enemyData.primaryColor;
 
         UpdateButtonSelection();
     }
 
     void UpdateButtonSelection()
     {
-        Color normal = Color.white;
-        Color selected = Color.yellow;
-
-        if (enemyData != null)
-        {
-            normal = enemyData.primaryColor;
-            selected = enemyData.secondaryColor;
-        }
+        Color normal = enemyData.primaryColor;
+        Color selected = enemyData.secondaryColor;
 
         fightText.color = normal;
         actText.color = normal;
@@ -583,7 +706,6 @@ public class BattleManager : MonoBehaviour
 
     public void HoverButton(int index)
     {
-        mouseIsSelecting = true;
         selectedButton = index;
         UpdateButtonSelection();
     }
@@ -601,39 +723,9 @@ public class BattleManager : MonoBehaviour
 
         enemyData = newEnemy;
 
-        enemyName = enemyData.enemyName;
-        enemyMaxHealth = enemyData.maxHealth;
-        enemyHealth = enemyMaxHealth;
-
-        dialogueText.text = enemyData.introText;
-        enemyNameText.text = enemyName;
-
-        enemyHPBar.maxValue = enemyMaxHealth;
-        enemyHPBar.value = enemyHealth;
-
-        if (enemyImage != null && enemyData.enemySprite != null)
-        {
-            enemyImage.sprite = enemyData.enemySprite;
-            enemyImage.SetNativeSize();
-        }
-
-        GameObject spawnerObject = Instantiate(
-            enemyData.attackSpawnerPrefabs[0],
-            spawnerPoint.position,
-            Quaternion.identity
-        );
-
-        attackSpawner =
-            spawnerObject.GetComponent<BaseAttackSpawner>();
-
-        attackSpawner.SetPhase(1);
-
+        LoadEnemyData();
         ApplyEnemyColors();
-
-        currentPhase = 1;
-
+        UpdateItemText();
         StartPlayerTurn();
-
-        Debug.Log("BattleManager cambió a enemigo: " + enemyData.enemyName);
     }
 }

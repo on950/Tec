@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0, g: 0, b: 0.5019608, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Observas cuidadosamente el experimento del profesor.
+  - "Intentas analizar las ecuaciones en el pizarr\xF3n."
+  - "Recuerdas las leyes de Newton para comprender la situaci\xF3n."
+  enemyTurnDialogues:
+  - "El profesor ajusta los par\xE1metros del experimento."
+  - "La energ\xEDa acumulada en el laboratorio aumenta."
+  - "El profesor prepara una nueva demostraci\xF3n f\xEDsica."
+  itemDialogue: "Utilizaste una calculadora cient\xEDfica para aclarar tus ideas."
+  phase2Dialogue: Las fuerzas en el laboratorio comienzan a volverse inestables.
+  phase3Dialogue: "\xA1El experimento alcanza niveles cr\xEDticos de energ\xEDa!"

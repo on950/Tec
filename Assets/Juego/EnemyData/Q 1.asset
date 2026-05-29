@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Intentas encontrar el bug oculto.
+  - Repasas mentalmente las estructuras de control.
+  - "Analizas el c\xF3digo l\xEDnea por l\xEDnea."
+  enemyTurnDialogues:
+  - "El profesor ejecuta el programa sin mostrar el c\xF3digo."
+  - "Aparece un mensaje de error que no hab\xEDas visto antes."
+  - La consola se llena de advertencias y excepciones.
+  itemDialogue: Usaste Stack Overflow de emergencia.
+  phase2Dialogue: "Los bugs comienzan a reproducirse r\xE1pidamente."
+  phase3Dialogue: "\xA1Ha aparecido un Error 404 de conocimiento!"

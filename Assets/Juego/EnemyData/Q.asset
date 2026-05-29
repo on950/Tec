@@ -21,5 +21,15 @@ MonoBehaviour:
   secondaryColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 142156125329013922, guid: f4d946b6dcdc3474a98f4050787a50c4, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Intentas seguir el recorrido de la cadena.
+  - "Repasas las reglas de transici\xF3n mentalmente."
+  - "Buscas el camino m\xE1s corto hacia el estado de aceptaci\xF3n."
+  enemyTurnDialogues:
+  - El profesor dibuja nuevos estados en el diagrama.
+  - "Aparecen s\xEDmbolos desconocidos en la entrada."
+  - "La pila comienza a llenarse r\xE1pidamente."
+  itemDialogue: Usaste un diagrama de estados de emergencia.
+  phase2Dialogue: "Las cadenas ahora requieren m\xFAltiples transiciones para ser
+    aceptadas."
+  phase3Dialogue: "\xA1El aut\xF3mata de pila ha sido activado!"

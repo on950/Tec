@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.5450981, g: 0, b: 0.5450981, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 2603313102986597151, guid: 1c4fa120715e8ac44824b2c915c393cc, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - "Intentas restablecer la conexi\xF3n."
+  - Revisas las direcciones IP disponibles.
+  - "Buscas una ruta m\xE1s eficiente para los datos."
+  enemyTurnDialogues:
+  - "El profesor env\xEDa una r\xE1faga de paquetes de prueba."
+  - "Las se\xF1ales de red comienzan a cruzarse."
+  - La latencia aumenta inesperadamente.
+  itemDialogue: "Usaste un analizador de red port\xE1til."
+  phase2Dialogue: "Los paquetes comienzan a perderse durante la transmisi\xF3n."
+  phase3Dialogue: "\xA1La red est\xE1 al borde de una ca\xEDda total!"

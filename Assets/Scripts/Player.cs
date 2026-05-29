@@ -198,6 +198,9 @@ public class Player : MonoBehaviour
             case "SalidaSalG":
                 SceneManager.LoadScene(73);
                 break;
+            case "A":
+                SceneManager.LoadScene(75);
+                break;
         }
     }
 }

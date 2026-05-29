@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.282353, g: 0.2392157, b: 0.5450981, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Intentas comunicarte utilizando el vocabulario que recuerdas.
+  - Repasas mentalmente las reglas gramaticales.
+  - "Escuchas atentamente para mejorar tu comprensi\xF3n."
+  enemyTurnDialogues:
+  - "El profesor formula una pregunta en ingl\xE9s."
+  - Nuevas palabras aparecen frente a ti.
+  - El profesor corrige cuidadosamente cada error.
+  itemDialogue: Usaste un diccionario para aclarar tus dudas.
+  phase2Dialogue: "Las preguntas se vuelven m\xE1s complejas y detalladas."
+  phase3Dialogue: "\xA1Ha comenzado la evaluaci\xF3n oral final!"

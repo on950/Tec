@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0.1843137, g: 0.3098039, b: 0.3098039, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Intentas interpretar las especificaciones del proyecto.
+  - Revisas cuidadosamente las medidas del plano.
+  - "Buscas una soluci\xF3n funcional para el dise\xF1o."
+  enemyTurnDialogues:
+  - El profesor realiza cambios inesperados en los planos.
+  - Las dimensiones comienzan a multiplicarse por todas partes.
+  - "El proyecto requiere m\xE1s detalles de los esperados."
+  itemDialogue: Usaste una regla de escala para verificar las medidas.
+  phase2Dialogue: Los planos comienzan a llenarse de correcciones.
+  phase3Dialogue: "\xA1La entrega final del proyecto est\xE1 a punto de comenzar!"

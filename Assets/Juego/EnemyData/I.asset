@@ -21,5 +21,14 @@ MonoBehaviour:
   secondaryColor: {r: 0, g: 0, b: 0.5019608, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 334348814508333245, guid: c17a5fe46ec934f4aaaccae731d11484, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Reflexionas sobre el impacto de tus acciones en el medio ambiente.
+  - "Propones una alternativa m\xE1s sostenible para resolver el problema."
+  - "Analizas c\xF3mo aprovechar los recursos de manera responsable."
+  enemyTurnDialogues:
+  - "El profesor presenta un nuevo desaf\xEDo ambiental."
+  - Las consecuencias del consumo irresponsable comienzan a notarse.
+  - "El profesor eval\xFAa el equilibrio entre desarrollo y conservaci\xF3n."
+  itemDialogue: "Usaste una gu\xEDa de buenas pr\xE1cticas ambientales."
+  phase2Dialogue: "La presi\xF3n sobre los recursos naturales aumenta considerablemente."
+  phase3Dialogue: "\xA1La sostenibilidad del proyecto est\xE1 en riesgo cr\xEDtico!"
