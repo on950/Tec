@@ -45,16 +45,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleManager
   currentState: 0
+  inventoryPanelImage: {fileID: 0}
+  batteryButtonImage: {fileID: 0}
+  formulaButtonImage: {fileID: 0}
+  shieldButtonImage: {fileID: 0}
+  inventoryPanelOutline: {fileID: 0}
+  batteryButtonOutline: {fileID: 0}
+  formulaButtonOutline: {fileID: 0}
+  shieldButtonOutline: {fileID: 0}
+  batteries: 3
+  formulaBooks: 2
+  shields: 1
+  healAmount: 2
+  shieldActive: 0
+  shieldTurns: 0
+  enemyData: {fileID: 11400000, guid: 684821925fafbe34d99a5e7776bf30a8, type: 2}
   enemyMaxHealth: 20
   enemyHealth: 20
   dialogueText: {fileID: 0}
   enemyNameText: {fileID: 0}
   enemyHPBar: {fileID: 0}
   buttonsPanel: {fileID: 0}
-  telecomSpawner: {fileID: 0}
-  playerMovement: {fileID: 0}
   continueButton: {fileID: 0}
-  enemyData: {fileID: 11400000, guid: 684821925fafbe34d99a5e7776bf30a8, type: 2}
-  enemyName: Profesor de Telecomunicaciones
-  actDialogues: []
-  enemyTurnDialogues: []
+  retryButton: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  batteryButton: {fileID: 0}
+  formulaButton: {fileID: 0}
+  shieldButton: {fileID: 0}
+  batteryButtonText: {fileID: 0}
+  formulaButtonText: {fileID: 0}
+  shieldButtonText: {fileID: 0}
+  dialogueBoxImage: {fileID: 0}
+  hpBarFill: {fileID: 0}
+  enemyHPBarFill: {fileID: 0}
+  enemyImage: {fileID: 0}
+  fightText: {fileID: 0}
+  actText: {fileID: 0}
+  itemText: {fileID: 0}
+  mercyText: {fileID: 0}
+  playerMovement: {fileID: 0}
+  spawnerPoint: {fileID: 0}

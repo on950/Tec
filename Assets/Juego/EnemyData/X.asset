@@ -22,5 +22,14 @@ MonoBehaviour:
   attackSpawnerPrefabs:
   - {fileID: 738832137396567539, guid: 159f294030032204980c78c28eca8b5e, type: 3}
   actDialogues:
-  - Me la pelas
-  enemyTurnDialogues: []
+  - Examinas cuidadosamente los componentes del circuito.
+  - "Intentas identificar la falla en el sistema electr\xF3nico."
+  - "Analizas el flujo de corriente para encontrar una soluci\xF3n."
+  enemyTurnDialogues:
+  - "El profesor ajusta algunos componentes en la tarjeta electr\xF3nica."
+  - "Una descarga el\xE9ctrica recorre el laboratorio."
+  - "Los circuitos comienzan a trabajar a m\xE1xima capacidad."
+  itemDialogue: "Usaste un mult\xEDmetro para verificar el estado del circuito."
+  phase2Dialogue: "La sobrecarga el\xE9ctrica comienza a propagarse por el sistema."
+  phase3Dialogue: "\xA1Los circuitos han entrado en una condici\xF3n cr\xEDtica de
+    sobrevoltaje!"

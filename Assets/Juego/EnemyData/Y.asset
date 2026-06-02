@@ -15,11 +15,20 @@ MonoBehaviour:
   enemyName: Y
   introText: "Conectando Se\xF1al"
   enemySprite: {fileID: -227229390636332341, guid: 55c29db1f50b6984fbae06d596daf3c6, type: 3}
-  maxHealth: 13
+  maxHealth: 20
   usesBlueSoul: 1
   primaryColor: {r: 0.1960784, g: 0.8039216, b: 0.1960784, a: 1}
   secondaryColor: {r: 0.1843137, g: 0.3098039, b: 0.3098039, a: 1}
   attackSpawnerPrefabs:
   - {fileID: 2603313102986597151, guid: 1c4fa120715e8ac44824b2c915c393cc, type: 3}
-  actDialogues: []
-  enemyTurnDialogues: []
+  actDialogues:
+  - Observas cuidadosamente los planos del proyecto.
+  - Observas cuidadosamente los planos del proyecto.
+  - "Revisas la estructura antes de continuar con la construcci\xF3n."
+  enemyTurnDialogues:
+  - "El profesor revisa detalladamente los planos arquitect\xF3nicos."
+  - "Nuevas modificaciones aparecen en el dise\xF1o."
+  - La complejidad del proyecto aumenta considerablemente.
+  itemDialogue: Usaste un juego de planos para orientarte mejor.
+  phase2Dialogue: "El proyecto entra en una etapa m\xE1s exigente de dise\xF1o."
+  phase3Dialogue: "\xA1La construcci\xF3n ha alcanzado su fase m\xE1s cr\xEDtica!"
