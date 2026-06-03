@@ -655,7 +655,7 @@ PrefabInstance:
     - target: {fileID: 4642796213033815429, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
     - target: {fileID: 4642796213033815429, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -691,7 +691,7 @@ PrefabInstance:
     - target: {fileID: 8209239970027815653, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
     - target: {fileID: 8209239970027815653, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -811,7 +811,7 @@ PrefabInstance:
     - target: {fileID: 8734474249779620257, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
     - target: {fileID: 8734474249779620257, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -836,6 +836,77 @@ PrefabInstance:
 --- !u!224 &782070816 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8425315628212573901, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &782070817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6316719379345995944, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &782070818 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8734474249779620257, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &782070819 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337565663135076217, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &782070820 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8209239970027815653, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &782070821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6266322027186093747, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &782070822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4642796213033815429, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 782070815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!1 &782070823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7544806891051082541, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
   m_PrefabInstance: {fileID: 782070815}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &788132093 stripped
@@ -2168,6 +2239,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 361994797}
     - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: shieldButton
+      value: 
+      objectReference: {fileID: 782070818}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: spawnerPoint
       value: 
       objectReference: {fileID: 1552244284}
@@ -2176,9 +2251,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: batteryButton
+      value: 
+      objectReference: {fileID: 782070822}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: enemyNameText
       value: 
       objectReference: {fileID: 127413991}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: formulaButton
+      value: 
+      objectReference: {fileID: 782070820}
     - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: continueButton
       value: 
@@ -2187,6 +2270,10 @@ PrefabInstance:
       propertyPath: enemyHPBarFill
       value: 
       objectReference: {fileID: 1236656809}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: inventoryPanel
+      value: 
+      objectReference: {fileID: 782070823}
     - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: playerMovement
       value: 
@@ -2199,6 +2286,18 @@ PrefabInstance:
       propertyPath: dialogueBoxImage
       value: 
       objectReference: {fileID: 2122990776}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: shieldButtonText
+      value: 
+      objectReference: {fileID: 782070817}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: batteryButtonText
+      value: 
+      objectReference: {fileID: 782070821}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: formulaButtonText
+      value: 
+      objectReference: {fileID: 782070819}
     - target: {fileID: 4794602134680957204, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: m_Name
       value: BattleManager

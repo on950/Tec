@@ -687,7 +687,7 @@ PrefabInstance:
     - target: {fileID: 4642796213033815429, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1405792536}
     - target: {fileID: 4642796213033815429, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -723,7 +723,7 @@ PrefabInstance:
     - target: {fileID: 8209239970027815653, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1405792536}
     - target: {fileID: 8209239970027815653, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -843,7 +843,7 @@ PrefabInstance:
     - target: {fileID: 8734474249779620257, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1405792536}
     - target: {fileID: 8734474249779620257, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1138,6 +1138,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225641517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7544806891051082541, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
+  m_PrefabInstance: {fileID: 931207266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1236656809 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3456053162261286188, guid: 6301634e14fb0d74fa6511a03b949919, type: 3}
@@ -2265,6 +2270,10 @@ PrefabInstance:
       propertyPath: enemyHPBarFill
       value: 
       objectReference: {fileID: 1236656809}
+    - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
+      propertyPath: inventoryPanel
+      value: 
+      objectReference: {fileID: 1225641517}
     - target: {fileID: 1115814552634335174, guid: 86285d9fe89aa9443a8fcbe8e10eb819, type: 3}
       propertyPath: playerMovement
       value: 

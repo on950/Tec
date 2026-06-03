@@ -68,7 +68,7 @@ MonoBehaviour:
   buttonsPanel: {fileID: 0}
   continueButton: {fileID: 0}
   retryButton: {fileID: 0}
-  inventoryPanel: {fileID: 0}
+  inventoryPanel: {fileID: 7544806891051082541, guid: 170de78a0c5dcf7419b119db6104cb89, type: 3}
   batteryButton: {fileID: 0}
   formulaButton: {fileID: 0}
   shieldButton: {fileID: 0}

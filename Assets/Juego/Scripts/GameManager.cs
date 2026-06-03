@@ -94,49 +94,20 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
 
         if (gameOverText != null)
-        {
             gameOverText.SetActive(true);
-        }
 
         if (playerMovement != null)
-        {
             playerMovement.enabled = false;
-        }
 
         if (playerHealth != null)
-        {
             playerHealth.DisableDamage();
-        }
 
         if (telecomSpawner != null)
-        {
             telecomSpawner.StopSpawning();
-        }
-
-        // Desactivar menú de acciones
-        if (buttonsPanel != null)
-        {
-            buttonsPanel.SetActive(false);
-        }
 
         // Avisar al BattleManager
         if (battleManager != null)
-        {
             battleManager.ForceLoseBattle();
-        }
-
-        // Mostrar Retry
-        if (retryButton != null)
-        {
-            retryButton.SetActive(true);
-        }
-
-        if (buttonsPanel != null)
-        {
-            Debug.Log("Desactivando: " + buttonsPanel.name);
-
-            buttonsPanel.SetActive(false);
-        }
 
         Debug.Log("GAME OVER");
     }
