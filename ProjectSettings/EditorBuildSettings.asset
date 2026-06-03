@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/2DPixelFantasyTilemapFree/Scenes/BaseScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/DEJI Inicio.unity
-    guid: 47f7216c34061524c8042ba2d5ff771c
+    path: Assets/Scenes/Inicio.unity
+    guid: af9ff9a3b67e2ed448592a68847d29fe
   - enabled: 1
     path: Assets/Scenes/DEJI cope.unity
     guid: 938efbae53c23f84ebfe07badc048e32
@@ -103,7 +103,7 @@ EditorBuildSettings:
     guid: 2be88ba5bf30ba14193c23531d1a1235
   - enabled: 1
     path: Assets/Scenes/Interiores/XPBE.unity
-    guid: 220e38395db2e264f9b8984d79ce6184
+    guid: 92a01c60270ca0d4aa985e2c64909bef
   - enabled: 1
     path: Assets/Scenes/SX.unity
     guid: 129a19763968cb843977687019bab4c3
@@ -181,10 +181,10 @@ EditorBuildSettings:
     guid: 69beb9dfe75180e4da1fbf68b0c59982
   - enabled: 1
     path: Assets/Scenes/Interiores/QB.unity
-    guid: 830d941cdfa656140bfa760d67106ab0
+    guid: 4a94d8be290ae4649a5231b1e3be4128
   - enabled: 1
     path: Assets/Scenes/Interiores/QBE.unity
-    guid: fd05969ba1c4e4547bcfe6508e839b1d
+    guid: 59bbdd68c72118e409afc3a1ff9f445a
   - enabled: 1
     path: Assets/Scenes/Interiores/Salones C.unity
     guid: bc145391f48b2224dbeb6ce29d2b8835
@@ -228,11 +228,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Interiores/Salones G.unity
     guid: 5ff3940f0d60dd8418eaeb127c54ca16
   - enabled: 1
+    path: Assets/Scenes/Y 1.unity
+    guid: 6174af5801dcb7546882a3968dd33e73
+  - enabled: 1
     path: Assets/Scenes/FKGVH GEXIT.unity
     guid: 56d553a90262d2340a96ce7a087217a1
-  - enabled: 1
-    path: Assets/Scenes/Inicio.unity
-    guid: af9ff9a3b67e2ed448592a68847d29fe
   - enabled: 1
     path: Assets/Scenes/Interiores/Administrativo.unity
     guid: 32ba5c749af75a74fae403de8f55dcfd
