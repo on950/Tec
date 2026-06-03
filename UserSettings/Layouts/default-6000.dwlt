@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 916.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 338}
   m_MaxSize: {x: 10000, y: 10000}
@@ -320,7 +320,11 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_LastSelectedObjectID: 33770
+=======
+  m_LastSelectedObjectID: 40932
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -655,6 +659,7 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 13.200012}
     m_SelectedIDs:
+<<<<<<< HEAD
     - m_Data: 41466
     m_LastClickedID:
       m_Data: 41466
@@ -666,6 +671,22 @@ MonoBehaviour:
     - m_Data: 41344
     - m_Data: 41346
     - m_Data: 41348
+=======
+    - m_Data: 40744
+    m_LastClickedID:
+      m_Data: 40744
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 40742
+    - m_Data: 40744
+    - m_Data: 40746
+    - m_Data: 40748
+    - m_Data: 40750
+    - m_Data: 40752
+    - m_Data: 40754
+    - m_Data: 40756
+    - m_Data: 1000000000
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: BattleSystem
@@ -698,12 +719,23 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
+<<<<<<< HEAD
     - m_Data: 41338
     - m_Data: 41340
     - m_Data: 41342
     - m_Data: 41344
     - m_Data: 41346
     - m_Data: 41348
+=======
+    - m_Data: 40742
+    - m_Data: 40744
+    - m_Data: 40746
+    - m_Data: 40748
+    - m_Data: 40750
+    - m_Data: 40752
+    - m_Data: 40754
+    - m_Data: 40756
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -731,8 +763,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
+<<<<<<< HEAD
     - m_Data: 33770
     m_LastClickedInstanceID: 33770
+=======
+    - m_Data: 40894
+    m_LastClickedInstanceID: 40894
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 75700
@@ -867,6 +904,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
+<<<<<<< HEAD
       - m_Data: 33770
       m_LastClickedID:
         m_Data: 0
@@ -1072,6 +1110,25 @@ MonoBehaviour:
       - m_Data: 70448
       - m_Data: 71278
       - m_Data: 72198
+=======
+      - m_Data: 40894
+      m_LastClickedID:
+        m_Data: 0
+      m_ExpandedIDs:
+      - m_Data: -42704
+      - m_Data: -41300
+      - m_Data: -24426
+      - m_Data: -22228
+      - m_Data: -19954
+      - m_Data: -17856
+      - m_Data: -15512
+      - m_Data: -13896
+      - m_Data: -7062
+      - m_Data: -6968
+      - m_Data: -2370
+      - m_Data: -1314
+      - m_Data: 47204
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: GameManager
@@ -1594,9 +1651,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 402.79526, y: 272.36224, z: -2.5292606}
     speed: 2
     m_Value: {x: 402.79526, y: 272.36224, z: -2.5292606}
+=======
+    m_Target: {x: -3.9627604, y: 4.2238226, z: 0.050688032}
+    speed: 2
+    m_Value: {x: -3.832526, y: 4.1855183, z: 0.05281161}
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1646,9 +1709,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 300.3015
     speed: 2
     m_Value: 300.3015
+=======
+    m_Target: 4.9314513
+    speed: 2
+    m_Value: 4.7190924
+>>>>>>> 4c51dcd25446deaa5381b9d7e89e935c3f4d9090
   m_Ortho:
     m_Target: 1
     speed: 2

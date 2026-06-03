@@ -228,11 +228,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Interiores/Salones G.unity
     guid: 5ff3940f0d60dd8418eaeb127c54ca16
   - enabled: 1
-    path: Assets/Scenes/Y 1.unity
-    guid: 6174af5801dcb7546882a3968dd33e73
-  - enabled: 1
     path: Assets/Scenes/FKGVH GEXIT.unity
     guid: 56d553a90262d2340a96ce7a087217a1
+  - enabled: 1
+    path: Assets/Scenes/Y 1.unity
+    guid: 6174af5801dcb7546882a3968dd33e73
   - enabled: 1
     path: Assets/Scenes/Interiores/Administrativo.unity
     guid: 32ba5c749af75a74fae403de8f55dcfd
