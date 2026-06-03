@@ -236,6 +236,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interiores/Administrativo.unity
     guid: 32ba5c749af75a74fae403de8f55dcfd
+  - enabled: 1
+    path: Assets/Scenes/ACR AdminExit.unity
+    guid: fb298f7c4c77009478ae5689bb0eca7a
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones O.unity
+    guid: 3398cd9dd0e10e74da12ef318c0fb028
+  - enabled: 1
+    path: Assets/Scenes/OPQ OEXIT.unity
+    guid: 9b429da193ebbe941914b851655dfcf3
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Salones V.unity
+    guid: 9243c34d209497c4183878cffa084315
+  - enabled: 1
+    path: Assets/Scenes/FKGVH VEXIT.unity
+    guid: c276089a941d2b74eb42875b5b63d4f2
+  - enabled: 1
+    path: Assets/Scenes/Interiores/AuditorioPrin.unity
+    guid: 946b0d0528a35f94f835728d5504e326
+  - enabled: 1
+    path: Assets/Scenes/Interiores/AuditorioCancha.unity
+    guid: fbfd29298de388040a6fbabdf728fe57
+  - enabled: 1
+    path: Assets/Scenes/XW AudiEXIT.unity
+    guid: 0358bb4347ca9434d99fd393b68a5f4c
+  - enabled: 1
+    path: Assets/Scenes/Interiores/AuditorioPrinE.unity
+    guid: 5cce7a950a0e6c043b89acfc62f154cb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

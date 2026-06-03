@@ -64,6 +64,14 @@ TagManager:
   - AcrBiblioteca
   - BibliotecaInicio
   - A
+  - Y
+  - SalidaXY
+  - SalidaAdmin
+  - SalidaSalO
+  - SalidaSalV
+  - SalidaCanchaAudi
+  - EntradaCanchaAudi
+  - SalidaAudi
   layers:
   - Default
   - TransparentFX

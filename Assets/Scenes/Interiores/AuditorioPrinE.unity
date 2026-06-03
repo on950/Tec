@@ -1561,11 +1561,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3872747166336221265, guid: 6b0b38666926d2440a683d2221960b10, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.885
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: 3872747166336221265, guid: 6b0b38666926d2440a683d2221960b10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.103
+      value: 4.97
       objectReference: {fileID: 0}
     - target: {fileID: 3872747166336221265, guid: 6b0b38666926d2440a683d2221960b10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1779,94 +1779,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &748737298
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4518718170688570189, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5830989782424631353, guid: d2e2d648b597b4247aaa5460ae0f3276, type: 3}
-    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: sceneIndex
-      value: 81
-      objectReference: {fileID: 0}
-    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1428730467}
-    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 1428730468}
-    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: 'dialogueLines.Array.data[0]'
-      value: 'Eder: 3 faltas en ajedres y no tienes el credito
-
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6859334655070073995, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_Name
-      value: NPC
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7322306709185776981, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
 --- !u!1 &772765046
 GameObject:
   m_ObjectHideFlags: 0
@@ -4306,22 +4218,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf3e9f1e5f4a2ff45b1cacc9eefb51c7, type: 3}
---- !u!114 &1428730467 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4013492539997458503, guid: cf3e9f1e5f4a2ff45b1cacc9eefb51c7, type: 3}
-  m_PrefabInstance: {fileID: 1428730466}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
---- !u!1 &1428730468 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5960289714619079111, guid: cf3e9f1e5f4a2ff45b1cacc9eefb51c7, type: 3}
-  m_PrefabInstance: {fileID: 1428730466}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1429101944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6297,6 +6193,110 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5870102859215729118, guid: 18f2d4208c6f7634e9d9e55d07d884a2, type: 3}
   m_PrefabInstance: {fileID: 2092122344}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2120714570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3669619028786430635, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.36666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669619028786430635, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.3888889
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518718170688570189, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5830989782424631353, guid: d2e2d648b597b4247aaa5460ae0f3276, type: 3}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: sceneIndex
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992780863038190501, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: 'Eder: 3 faltas en ajedres y no tienes el credito
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859334655070073995, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121756154599177904, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322306709185776981, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801976743167860162, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.36666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801976743167860162, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.3888889
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3972c51c541cc34f80d4f9106ef661f, type: 3}
 --- !u!1001 &2129244960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6482,4 +6482,4 @@ SceneRoots:
   - {fileID: 2131158407}
   - {fileID: 682323269}
   - {fileID: 1428730466}
-  - {fileID: 748737298}
+  - {fileID: 2120714570}

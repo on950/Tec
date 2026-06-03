@@ -201,6 +201,33 @@ public class Player : MonoBehaviour
             case "A":
                 SceneManager.LoadScene(75);
                 break;
+            case "SalidaAdmin":
+                SceneManager.LoadScene(76);
+                break;
+            case "O":
+                SceneManager.LoadScene(77);
+                break;
+            case "SalidaSalO":
+                SceneManager.LoadScene(78);
+                break;
+            case "V":
+                SceneManager.LoadScene(79);
+                break;
+            case "SalidaSalV":
+                SceneManager.LoadScene(80);
+                break;
+            case "Audi":
+                SceneManager.LoadScene(81);
+                break;
+            case "EntradaCanchaAudi":
+                SceneManager.LoadScene(82);
+                break;
+            case "SalidaCanchaAudi":
+                SceneManager.LoadScene(84);
+                break;
+            case "SalidaAudi":
+                SceneManager.LoadScene(83);
+                break;
         }
     }
 }
